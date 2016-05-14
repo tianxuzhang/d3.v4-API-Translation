@@ -34,6 +34,50 @@ D3.js最新版4.xのAPI中文翻译
 
 非压缩版移除上面的`.min`即可。
 
+## API 总览
 
+选择元素
+* [选择](#selections) ([选择](#selecting-elements), [修改](#modifying-elements), [数据](#joining-data), [事件](#handling-events), [控制](#control-flow), [命名空间](#namespaces))
+
+数据类型
+* [数组](#arrays) ([统计](#statistics), [直方图](#histograms), [查找](#search), [转换](#transformations))
+* [集合](#collections) ([对象](#objects), [映射（map）](#maps), [集合（set）](#sets), [嵌套](#nests))
+* [颜色](#colors)
+* [DSV（分隔符分割的值）](#delimiter-separated-values)
+* [随机值](#random-numbers)
+* [时间序列](#time-intervals)
+
+格式化
+* [数字格式化](#number-formats)
+* [时间格式化](#time-formats)
+
+加载数据
+* [队列](#queues)
+* [请求](#requests)
+
+数据映射
+* [比例尺](#scales) ([连续型](#continuous-scales), [颜色序数型](#sequential-color-scales), [数值型](#quantize-scales), [序数型](#ordinal-scales), [分类颜色型](#categorical-color-scales))
+
+图形几何
+* [形状](#shapes) ([弧](#arcs), [饼](#pies), [线](#lines), [面积](#areas), [曲线](#curves), [符号](#symbols), [堆叠](#stacks))
+* [轴](#axes)
+* [泰森多边形](#voronoi-diagrams)
+* [路径](#paths)
+* [多边形](#polygons)
+* [四叉树](#quadtrees)
+
+布局
+* [力布局](#forces)
+* [层次布局](#hierarchies)
+
+动态交互
+* [定时器](#timers)
+* [过渡](#transitions)
+* [插值器](#interpolators)
+* [缓动](#easings)
+* [事件分派](#dispatches)
+* [拖动](#dragging)
+
+D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前版本号。
 
 
