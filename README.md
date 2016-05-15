@@ -185,4 +185,18 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [*map*.entries](https://github.com/d3/d3-collection#map_entries) - 获取键值对数组。
 * [*map*.each](https://github.com/d3/d3-collection#map_each) - 为每个元素调用一次指定的方法。
 * [*map*.empty](https://github.com/d3/d3-collection#map_empty) - 返回map是否为空。
-* [*map*.size](https://github.com/d3/d3-collection#map_size) - 计算实体的数量。
+* [*map*.size](https://github.com/d3/d3-collection#map_size) - 计算值的数量。
+
+#### [集合](https://github.com/d3/d3-collection#sets)
+
+类似ES6 Set，但是键时字符类型的，并且有点其他区别。
+
+* [d3.set](https://github.com/d3/d3-collection#set) - 创建一个空的set。
+* [*set*.has](https://github.com/d3/d3-collection#set_has) - 返回set中是否包含某个值。
+* [*set*.add](https://github.com/d3/d3-collection#set_add) - 添加指定值。
+* [*set*.remove](https://github.com/d3/d3-collection#set_remove) - 删除指定值。
+* [*set*.clear](https://github.com/d3/d3-collection#set_clear) - 移除所有值。
+* [*set*.values](https://github.com/d3/d3-collection#set_values) - 获取值数组。
+* [*set*.each](https://github.com/d3/d3-collection#set_each) - 为每个元素调用一次指定的方法。
+* [*set*.empty](https://github.com/d3/d3-collection#set_empty) - 返回set是否为空。
+* [*set*.size](https://github.com/d3/d3-collection#set_size) - 计算值的数量。
