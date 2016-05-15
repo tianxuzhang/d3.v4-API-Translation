@@ -125,3 +125,16 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [d3.ascending](https://github.com/d3/d3-array#ascending) - 升序排序。
 * [d3.descending](https://github.com/d3/d3-array#descending) - 降序排序。
 
+#### [转换](https://github.com/d3/d3-array#transformations)
+
+转换数组并返回一个新的数组。
+
+* [d3.merge](https://github.com/d3/d3-array#merge) - 将多个数组合并成一个。
+* [d3.pairs](https://github.com/d3/d3-array#pairs) - 创建一个相邻对数组。
+* [d3.permute](https://github.com/d3/d3-array#permute) - 安装指定的索引数组重排数组。
+* [d3.shuffle](https://github.com/d3/d3-array#shuffle) - 数组随机排序。
+* [d3.ticks](https://github.com/d3/d3-array#ticks) - 从一个数组间隔生成有代表的值。
+* [d3.tickStep](https://github.com/d3/d3-array#tickStep) - 从一个数组间隔生成有代表的值。
+* [d3.range](https://github.com/d3/d3-array#range) - 生成一组数值。
+* [d3.transpose](https://github.com/d3/d3-array#transpose) - 数组转置。
+* [d3.zip](https://github.com/d3/d3-array#zip) - 转置多个数组。
