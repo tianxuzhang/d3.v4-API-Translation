@@ -157,3 +157,15 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [*axis*.tickSizeInner](https://github.com/d3/d3-axis#axis_tickSizeInner) - 设置内刻度的大小。
 * [*axis*.tickSizeOuter](https://github.com/d3/d3-axis#axis_tickSizeOuter) - 设置外刻度的大小。
 * [*axis*.tickPadding](https://github.com/d3/d3-axis#axis_tickPadding) - 设置刻度和标签之间的间距。
+
+## [集合](https://github.com/d3/d3-collection)
+
+便捷的数据结构，元素的键是字符串类型。
+
+#### [对象](https://github.com/d3/d3-collection#objects)
+
+将对象转为数组的方法。
+
+* [d3.keys](https://github.com/d3/d3-collection#keys) - 列举关联数组的键。
+* [d3.values](https://github.com/d3/d3-collection#values) - 列举关联数组的值。
+* [d3.entries](https://github.com/d3/d3-collection#entries) - 列举关联数组的键值对实体。
