@@ -169,3 +169,20 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [d3.keys](https://github.com/d3/d3-collection#keys) - 列举关联数组的键。
 * [d3.values](https://github.com/d3/d3-collection#values) - 列举关联数组的值。
 * [d3.entries](https://github.com/d3/d3-collection#entries) - 列举关联数组的键值对实体。
+
+#### [映射](https://github.com/d3/d3-collection#maps)
+
+类似ES6 Map，但是键时字符类型的，并且有点其他区别。
+
+* [d3.map](https://github.com/d3/d3-collection#map) - 创建一个空的map。
+* [*map*.has](https://github.com/d3/d3-collection#map_has) - 返回map中是否包含某个值。
+* [*map*.get](https://github.com/d3/d3-collection#map_get) - 获取值。
+* [*map*.set](https://github.com/d3/d3-collection#map_set) - 设置值。
+* [*map*.remove](https://github.com/d3/d3-collection#map_remove) - 移除值。
+* [*map*.clear](https://github.com/d3/d3-collection#map_clear) - 移除所有值。
+* [*map*.keys](https://github.com/d3/d3-collection#map_keys) - 获取键数组。
+* [*map*.values](https://github.com/d3/d3-collection#map_values) - 获取值数组。
+* [*map*.entries](https://github.com/d3/d3-collection#map_entries) - 获取键值对数组。
+* [*map*.each](https://github.com/d3/d3-collection#map_each) - 为每个元素调用一次指定的方法。
+* [*map*.empty](https://github.com/d3/d3-collection#map_empty) - 返回map是否为空。
+* [*map*.size](https://github.com/d3/d3-collection#map_size) - 计算实体的数量。
