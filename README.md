@@ -111,4 +111,17 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [d3.thresholdScott](https://github.com/d3/d3-array#thresholdScott) - Scott’s normal reference装箱规则。
 * [d3.thresholdSturges](https://github.com/d3/d3-array#thresholdSturges) - Sturges’装箱准则。
 
+#### [查找](https://github.com/d3/d3-array#search)
+
+检索数组中特定的值。
+
+* [d3.scan](https://github.com/d3/d3-array#scan) - 使用比较器线查找。
+* [d3.bisect](https://github.com/d3/d3-array#bisect) - 二分查找排序数组中的值。
+* [d3.bisectRight](https://github.com/d3/d3-array#bisectRight) - 二分查找排序数组中的值。
+* [d3.bisectLeft](https://github.com/d3/d3-array#bisectLeft) - 二分查找排序数组中的值。
+* [d3.bisector](https://github.com/d3/d3-array#bisector) - 使用访问器和比较器二分查找。
+* [*bisector*.left](https://github.com/d3/d3-array#bisector_left) - 使用给定的比较器的bisectLeft。
+* [*bisector*.right](https://github.com/d3/d3-array#bisector_right) - 使用给定的比较器的bisectRight。
+* [d3.ascending](https://github.com/d3/d3-array#ascending) - 升序排序。
+* [d3.descending](https://github.com/d3/d3-array#descending) - 降序排序。
 
