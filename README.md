@@ -2,7 +2,7 @@
 D3.js最新版4.xのAPI中文翻译
 
 # 好吧，说说我要做啥？
-今天打开D3的项目地址发现描述已经变成了：
+今天打开D3的项目地址https://github.com/d3/d3，发现描述已经变成了：
 >Bring data to life with SVG, Canvas and HTML
 
 比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3的留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为大家入门d3.v4的第一手资料。
@@ -200,3 +200,16 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [*set*.each](https://github.com/d3/d3-collection#set_each) - 为每个元素调用一次指定的方法。
 * [*set*.empty](https://github.com/d3/d3-collection#set_empty) - 返回set是否为空。
 * [*set*.size](https://github.com/d3/d3-collection#set_size) - 计算值的数量。
+
+#### [嵌套](https://github.com/d3/d3-collection#nests)
+
+将数据组织成任意层次。
+
+* [d3.nest](https://github.com/d3/d3-collection#nest) - 创建一个嵌套生成器。
+* [*nest*.key](https://github.com/d3/d3-collection#nest_key) - 在嵌套层级中加一级。
+* [*nest*.sortKeys](https://github.com/d3/d3-collection#nest_sortKeys) - 当前层级按键排序。
+* [*nest*.sortValues](https://github.com/d3/d3-collection#nest_sortValues) - 叶子层级按值排序。
+* [*nest*.rollup](https://github.com/d3/d3-collection#nest_rollup) -为叶子层指定汇总函数。
+* [*nest*.map](https://github.com/d3/d3-collection#nest_map) - 生成一个嵌套，返回一个map。
+* [*nest*.object](https://github.com/d3/d3-collection#nest_object) - 生成一个嵌套，返回一个关联数组。
+* [*nest*.entries](https://github.com/d3/d3-collection#nest_entries) - 生成一个嵌套，返回一个键值对数组。
