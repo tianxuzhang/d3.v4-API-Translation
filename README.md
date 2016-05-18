@@ -2,10 +2,10 @@
 D3.js最新版4.xのAPI中文翻译
 
 # 好吧，说说我要做啥？
-今天打开D3的项目地址https://github.com/d3/d3，发现描述已经变成了：
+今天打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
 >Bring data to life with SVG, Canvas and HTML
 
-比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3的留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为大家入门d3.v4的第一手资料。
+比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为帮助大家入门d3.v4的第一手资料。
 
 下面是译文，欢迎一起翻译，探讨~
 
@@ -223,7 +223,7 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [*color*.brighter](https://github.com/d3/d3-color#color_brighter) - 该颜色的高亮副本。
 * [*color*.darker](https://github.com/d3/d3-color#color_darker) - 该颜色的较亮副本。
 * [*color*.displayable](https://github.com/d3/d3-color#color_displayable) - 如果该颜色在标准硬件上可以显示则返回true。
-* [*color*.toString](https://github.com/d3/d3-color#color_toString) - 将颜色格式化为一个十六进制
+* [*color*.toString](https://github.com/d3/d3-color#color_toString) - 将该颜色格式化为一个十六进制
 RGB值字符串。
 * [d3.rgb](https://github.com/d3/d3-color#rgb) - 创建一个RGB颜色。
 * [d3.hsl](https://github.com/d3/d3-color#hsl) - 创建一个HSL颜色。
