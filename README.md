@@ -272,3 +272,49 @@ RGB值字符串。
 * [*drag*.y](https://github.com/d3/d3-drag#drag_y) - 设置被拖曳对象的*y*-坐标。
 * [*drag*.on](https://github.com/d3/d3-drag#drag_on) - 监听拖曳事件。
 * [*event*.on](https://github.com/d3/d3-drag#event_on) - 监听当前动作的拖曳事件。
+
+## [缓动](https://github.com/d3/d3-ease)
+
+用来平滑过渡的缓动函数。
+
+* [*ease*](https://github.com/d3/d3-ease#_ease) - 缓动给定的标准化时间。
+* [d3.easeLinear](https://github.com/d3/d3-ease#easeLinear) - 线性缓动，就是个恒等函数。
+* [d3.easePolyIn](https://github.com/d3/d3-ease#easePolyIn) - 多项式缓动，加速到指定的速率。
+* [d3.easePolyOut](https://github.com/d3/d3-ease#easePolyOut) - 逆多项式缓动。
+* [d3.easePolyInOut](https://github.com/d3/d3-ease#easePolyInOut) - 均匀多项式缓动。
+* [*poly*.exponent](https://github.com/d3/d3-ease#poly_exponent) - 指定多项式的指数。
+* [d3.easeQuad](https://github.com/d3/d3-ease#easeQuad) - easeQuadInOut的别名。
+* [d3.easeQuadIn](https://github.com/d3/d3-ease#easeQuadIn) - 平方缓动。
+* [d3.easeQuadOut](https://github.com/d3/d3-ease#easeQuadOut) - 逆平方缓动。
+* [d3.easeQuadInOut](https://github.com/d3/d3-ease#easeQuadInOut) - 均匀平方缓动。
+* [d3.easeCubic](https://github.com/d3/d3-ease#easeCubic) - easeCubicInOut的别名。
+* [d3.easeCubicIn](https://github.com/d3/d3-ease#easeCubicIn) - 立方缓动。
+* [d3.easeCubicOut](https://github.com/d3/d3-ease#easeCubicOut) - 逆立方缓动。
+* [d3.easeCubicInOut](https://github.com/d3/d3-ease#easeCubicInOut) - 均匀立方缓动。
+* [d3.easeSin](https://github.com/d3/d3-ease#easeSin) - easeSinInOut的别名。
+* [d3.easeSinIn](https://github.com/d3/d3-ease#easeSinIn) - sinusoidal easing.
+* [d3.easeSinOut](https://github.com/d3/d3-ease#easeSinOut) - reverse sinusoidal easing.
+* [d3.easeSinInOut](https://github.com/d3/d3-ease#easeSinInOut) - symmetric sinusoidal easing.
+* [d3.easeExp](https://github.com/d3/d3-ease#easeExp) - an alias for easeExpInOut.
+* [d3.easeExpIn](https://github.com/d3/d3-ease#easeExpIn) - exponential easing.
+* [d3.easeExpOut](https://github.com/d3/d3-ease#easeExpOut) - reverse exponential easing.
+* [d3.easeExpInOut](https://github.com/d3/d3-ease#easeExpInOut) - symmetric exponential easing.
+* [d3.easeCircle](https://github.com/d3/d3-ease#easeCircle) - an alias for easeCircleInOut.
+* [d3.easeCircleIn](https://github.com/d3/d3-ease#easeCircleIn) - circular easing.
+* [d3.easeCircleOut](https://github.com/d3/d3-ease#easeCircleOut) - reverse circular easing.
+* [d3.easeCircleInOut](https://github.com/d3/d3-ease#easeCircleInOut) - symmetric circular easing.
+* [d3.easeElastic](https://github.com/d3/d3-ease#easeElastic) - an alias for easeElasticOut.
+* [d3.easeElasticIn](https://github.com/d3/d3-ease#easeElasticIn) - elastic easing, like a rubber band.
+* [d3.easeElasticOut](https://github.com/d3/d3-ease#easeElasticOut) - reverse elastic easing.
+* [d3.easeElasticInOut](https://github.com/d3/d3-ease#easeElasticInOut) - symmetric elastic easing.
+* [*elastic*.amplitude](https://github.com/d3/d3-ease#elastic_amplitude) - specify the elastic amplitude.
+* [*elastic*.period](https://github.com/d3/d3-ease#elastic_period) - specify the elastic period.
+* [d3.easeBack](https://github.com/d3/d3-ease#easeBack) - an alias for easeBackInOut.
+* [d3.easeBackIn](https://github.com/d3/d3-ease#easeBackIn) - anticipatory easing, like a dancer bending his knees before jumping.
+* [d3.easeBackOut](https://github.com/d3/d3-ease#easeBackOut) - reverse anticipatory easing.
+* [d3.easeBackInOut](https://github.com/d3/d3-ease#easeBackInOut) - symmetric anticipatory easing.
+* [*back*.overshoot](https://github.com/d3/d3-ease#back_overshoot) - specify the amount of overshoot.
+* [d3.easeBounce](https://github.com/d3/d3-ease#easeBounce) - an alias for easeBounceOut.
+* [d3.easeBounceIn](https://github.com/d3/d3-ease#easeBounceIn) - bounce easing, like a rubber ball.
+* [d3.easeBounceOut](https://github.com/d3/d3-ease#easeBounceOut) - reverse bounce easing.
+* [d3.easeBounceInOut](https://github.com/d3/d3-ease#easeBounceInOut) - symmetric bounce easing.
