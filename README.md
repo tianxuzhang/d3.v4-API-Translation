@@ -16,6 +16,7 @@ D3.js 4.0 API中文翻译
 * 路径这部分的API主要用来将Canvas命令转换为SVG路径的d属性的值。本质上最后还是用SVG画图。这一点可能跟我们想要的直接用Canvas画大数据量数据的需求不一样，看来以后还是得手动来实现了，这一点略微还是有些失望的~
 
 * D3 V4的大量API由原来的二级函数升级为一级函数（实际上就是把两级的单词合并，使用驼峰命名法重命名了），这样给使用者带来了一些记忆负担，其实以前的API设计得更好用点~
+
 -----------
 
 下面是译文，欢迎一起翻译，探讨~
@@ -520,3 +521,22 @@ RGB值字符串。
 * [d3.polygonHull](https://github.com/d3/d3-polygon#polygonHull) - 计算给定点集的凸包。
 * [d3.polygonContains](https://github.com/d3/d3-polygon#polygonContains) - 测试点是否在多边形内。
 * [d3.polygonLength](https://github.com/d3/d3-polygon#polygonLength) - 计算给定多边形的周长的长度。
+
+## [四叉树](https://github.com/d3/d3-quadtree)
+
+二维递归空间细分。
+
+* [d3.quadtree](https://github.com/d3/d3-quadtree#quadtree) - 创建一个新的空的四叉树。
+* [*quadtree*.x](https://github.com/d3/d3-quadtree#quadtree_x) - 设置*x*访问器。
+* [*quadtree*.y](https://github.com/d3/d3-quadtree#quadtree_y) - 设置*y*访问器。
+* [*quadtree*.add](https://github.com/d3/d3-quadtree#quadtree_add) - 添加数据到四叉树中。
+* [*quadtree*.remove](https://github.com/d3/d3-quadtree#quadtree_remove) - 删除四叉树中的数据。
+* [*quadtree*.copy](https://github.com/d3/d3-quadtree#quadtree_copy) - 创建一个四叉树的副本。
+* [*quadtree*.root](https://github.com/d3/d3-quadtree#quadtree_root) - 获取四叉树的根节点。
+* [*quadtree*.data](https://github.com/d3/d3-quadtree#quadtree_data) - 从四叉树检索所有数据。
+* [*quadtree*.size](https://github.com/d3/d3-quadtree#quadtree_size) - 计算在四叉树中数据的数量。
+* [*quadtree*.find](https://github.com/d3/d3-quadtree#quadtree_find) - 在四叉树快速找到最接近的数据。
+* [*quadtree*.visit](https://github.com/d3/d3-quadtree#quadtree_visit) - 选择性地访问四叉树中的节点。
+* [*quadtree*.visitAfter](https://github.com/d3/d3-quadtree#quadtree_visitAfter) - 访问四叉树中的所有节点。
+* [*quadtree*.cover](https://github.com/d3/d3-quadtree#quadtree_cover) - 扩充四叉树覆盖一个点。
+* [*quadtree*.extent](https://github.com/d3/d3-quadtree#quadtree_extent) - 扩充四叉树覆盖一个范围。
