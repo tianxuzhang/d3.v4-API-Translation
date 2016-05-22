@@ -372,3 +372,63 @@ RGB值字符串。
 * [d3.forceY](https://github.com/d3/d3-force#forceY) - 创建*y*-定位力。
 * [*y*.strength](https://github.com/d3/d3-force#y_strength) - 设置力强度。
 * [*y*.y](https://github.com/d3/d3-force#y_y) - 设置目标*y*-坐标。
+
+## [层次布局](https://github.com/d3/d3-hierarchy)
+
+用来可视化层次型数据的布局算法。
+
+* [d3.hierarchy](#hierarchy) - 从层次型的数据构造一个根节点。
+* [*node*.ancestors](#node_ancestors) - 生成祖先数组。
+* [*node*.descendants](#node_descendants) - 生成后代数组。
+* [*node*.leaves](#node_leaves) - 生成层级数组。
+* [*node*.path](#node_path) - 生成到达另一个节点的最短路径。
+* [*node*.sum](#node_sum) - 求和。
+* [*node*.sort](#node_sort) - 排序所有后代的兄弟节点。
+* [*node*.each](#node_each) - 广度优先遍历。
+* [*node*.eachAfter](#node_eachAfter) - 后序遍历。
+* [*node*.eachBefore](#node_eachBefore) - 先序遍历。
+* [*node*.copy](#node_copy) - 拷贝层次布局。
+* [d3.stratify](#stratify) - 创建一个层操作符。
+* [*stratify*](#_stratify) - 从表格式的数据构造一个根节点。
+* [*stratify*.id](#stratify_id) - 设置节点ID访问器。
+* [*stratify*.parentId](#stratify_parentId) - 设置父节点ID访问器。
+* [d3.cluster](#cluster) - 创建一个新的簇（系统树图）布局。
+* [*cluster*](#_cluster) - 将给定的层次数据排列到簇中。
+* [*cluster*.size](#cluster_size) - 设置布局大小。
+* [*cluster*.nodeSize](#cluster_nodeSize) - 设置节点大小。
+* [*cluster*.separation](#cluster_separation) - 设置层间距。
+* [d3.tree](#tree) - 创建新的整齐的树布局。
+* [*tree*](#_tree) - 将给定的层次数据排列到树中。
+* [*tree*.size](#tree_size) - 设置布局大小。
+* [*tree*.nodeSize](#tree_nodeSize) - 设置节点大小。
+* [*tree*.separation](#tree_separation) - 设置层间距。
+* [d3.treemap](#treemap) - 创建一个新的矩形填充树布局（简称矩形树布局）。
+* [*treemap*](#_treemap) - 使用矩形填充树布局排列给定的层次数据。
+* [*treemap*.tile](#treemap_tile) - 设置铺砌方法。
+* [*treemap*.size](#treemap_size) - 设置布局大小。
+* [*treemap*.round](#treemap_round) - 设置输出坐标是否是取整的。
+* [*treemap*.padding](#treemap_padding) - 设置间距。
+* [*treemap*.paddingInner](#treemap_paddingInner) - 设置兄弟节点之间的间距。
+* [*treemap*.paddingOuter](#treemap_paddingOuter) - 设置父子节点之间的间距。
+* [*treemap*.paddingTop](#treemap_paddingTop) - 设置父节点顶边缘和子节点的间距。
+* [*treemap*.paddingRight](#treemap_paddingRight) - 设置父节点右边缘和子节点的间距。
+* [*treemap*.paddingBottom](#treemap_paddingBottom) - 设置父节点底边缘和子节点的间距。
+* [*treemap*.paddingLeft](#treemap_paddingLeft) - 设置父节点左边缘和子节点的间距。
+* [d3.treemapBinary](#treemapBinary) - 使用平衡二叉树铺砌。
+* [d3.treemapDice](#treemapDice) - 水平行铺砌。
+* [d3.treemapSlice](#treemapSlice) - 垂直列铺砌。
+* [d3.treemapSliceDice](#treemapSliceDice) - 水平和垂直交替铺砌。
+* [d3.treemapSquarify](#treemapSquarify) - 正方形铺砌。
+* [*squarify*.ratio](#squarify_ratio) - 设置期望的矩形长宽比。
+* [d3.partition](#partition) - 创建新的分区布局（旭日图和冰柱图）。
+* [*partition*](#_partition) - 使用分区布局排列给定的层次数据。
+* [*partition*.size](#partition_size) - 设置布局大小。
+* [*partition*.round](#partition_round) - 设置输出坐标是否是取整的。
+* [*partition*.padding](#partition_padding) - 设置间距。
+* [d3.pack](#pack) - 创建一个新的圆形填充布局（简称包布局）。
+* [*pack*](#_pack) - 使用包布局排列给定的层次数据。
+* [*pack*.radius](#pack_radius) - 设置半径访问器。
+* [*pack*.size](#pack_size) - 设置布局大小。
+* [*pack*.padding](#pack_padding) - 设置间距。
+* [d3.packSiblings](#packSiblings) - 包装指定的圆数组。
+* [d3.packEnclose](#packEnclose) - 围住指定的圆数组。
