@@ -13,6 +13,8 @@ D3.js 4.0 API中文翻译
 
 * 翻译D3 V4的API发现与D3 V3的差别很大，功能也更多更完善，就力导向图就从原来的12个功能函数增加到现在的42个（包含二级函数），这势必会给我们做数据可视化带来更多的便利。
 
+* 路径这部分的API主要用来将Canvas命令转换为SVG路径的d属性的值。本质上最后还是用SVG画图。这一点可能跟我们想要的直接用Canvas画大数据量数据的需求不一样，看来以后还是得手动来实现了，这一点略微还是有些失望的~
+
 -----------
 
 下面是译文，欢迎一起翻译，探讨~
@@ -493,4 +495,18 @@ RGB值字符串。
 * [d3.precisionPrefix](https://github.com/d3/d3-format#precisionPrefix) - 计算SI-前缀记号法的小数精度。
 * [d3.precisionRound](https://github.com/d3/d3-format#precisionRound) - 计算有效数字。
 
+## [路径](https://github.com/d3/d3-path)
+
+序列化Canvas路径命令为SVG。
+
+* [d3.path](https://github.com/d3/d3-path#path) - 创建一个新的路径序列化。
+* [*path*.moveTo](https://github.com/d3/d3-path#path_moveTo) - 移动到给定的点。
+* [*path*.closePath](https://github.com/d3/d3-path#path_closePath) - 关闭当前的子路径。
+* [*path*.lineTo](https://github.com/d3/d3-path#path_lineTo) - 画一条直线段。
+* [*path*.quadraticCurveTo](https://github.com/d3/d3-path#path_quadraticCurveTo) - 画一条二次贝塞尔曲线段。
+* [*path*.bezierCurveTo](https://github.com/d3/d3-path#path_bezierCurveTo) - 画一条三次贝塞尔曲线段。
+* [*path*.arcTo](https://github.com/d3/d3-path#path_arcTo) - 画一条三次贝塞尔曲线弧。
+* [*path*.arc](https://github.com/d3/d3-path#path_arc) - 画一条三次贝塞尔曲线弧。
+* [*path*.rect](https://github.com/d3/d3-path#path_rect) - 画一个矩形。
+* [*path*.toString](https://github.com/d3/d3-path#path_toString) - 序列化为SVG路径的data属性字符串。
 
