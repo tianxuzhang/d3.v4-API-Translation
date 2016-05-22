@@ -550,3 +550,15 @@ RGB值字符串。
 * [*queue*.abort](https://github.com/d3/d3-queue#queue_abort) - 中止任何活动任务,取消任何挂起任务。
 * [*queue*.await](https://github.com/d3/d3-queue#queue_await) - 注册一个任务结束后的回调函数。
 * [*queue*.awaitAll](https://github.com/d3/d3-queue#queue_awaitAll) - 注册一个所有任务结束后的回调函数。
+
+## [随机数](https://github.com/d3/d3-random)
+
+生成不同分布的随机数。
+
+* [d3.randomUniform](https://github.com/d3/d3-random#randomUniform) - 均匀分布。
+* [d3.randomNormal](https://github.com/d3/d3-random#randomNormal) - 正态分布。
+* [d3.randomLogNormal](https://github.com/d3/d3-random#randomLogNormal) - 对数正态分布。
+* [d3.randomBates](https://github.com/d3/d3-random#randomBates) - 贝茨分布。
+* [d3.randomIrwinHall](https://github.com/d3/d3-random#randomIrwinHall) - Irwin-Hall分布。
+* [d3.randomExponential](https://github.com/d3/d3-random#randomExponential) - 指数分布
+
