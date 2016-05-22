@@ -15,6 +15,7 @@ D3.js 4.0 API中文翻译
 
 * 路径这部分的API主要用来将Canvas命令转换为SVG路径的d属性的值。本质上最后还是用SVG画图。这一点可能跟我们想要的直接用Canvas画大数据量数据的需求不一样，看来以后还是得手动来实现了，这一点略微还是有些失望的~
 
+* D3 V4的大量API由原来的二级函数升级为一级函数（实际上就是把两级的单词合并，使用驼峰命名法重命名了），这样给使用者带来了一些记忆负担，其实以前的API设计得更好用点~
 -----------
 
 下面是译文，欢迎一起翻译，探讨~
@@ -510,3 +511,12 @@ RGB值字符串。
 * [*path*.rect](https://github.com/d3/d3-path#path_rect) - 画一个矩形。
 * [*path*.toString](https://github.com/d3/d3-path#path_toString) - 序列化为SVG路径的data属性字符串。
 
+## [多边形](https://github.com/d3/d3-polygon)
+
+二维多边形的几何操作。
+
+* [d3.polygonArea](https://github.com/d3/d3-polygon#polygonArea) - 计算给定多边形的面积。
+* [d3.polygonCentroid](https://github.com/d3/d3-polygon#polygonCentroid) - 计算给定多边形的中心。
+* [d3.polygonHull](https://github.com/d3/d3-polygon#polygonHull) - 计算给定点集的凸包。
+* [d3.polygonContains](https://github.com/d3/d3-polygon#polygonContains) - 测试点是否在多边形内。
+* [d3.polygonLength](https://github.com/d3/d3-polygon#polygonLength) - 计算给定多边形的周长的长度。
