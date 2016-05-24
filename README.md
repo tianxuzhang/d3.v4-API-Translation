@@ -647,3 +647,20 @@ XMLHttpRequest的简便封装。
 * [*time*.nice](https://github.com/d3/d3-scale#time_nice) - 优化定义域。
 * [*time*.copy](https://github.com/d3/d3-scale#time_copy) - 创建比例尺的副本。
 * [d3.scaleUtc](https://github.com/d3/d3-scale#scaleUtc) - 创建UTC时间的线性比例尺。
+
+### [连续颜色比例尺](https://github.com/d3/d3-scale#sequential-color-scales)
+
+将连续的，数量的定义域映射为连续的，固定的颜色渐变。
+
+* [d3.scaleViridis](https://github.com/d3/d3-scale#scaleViridis) - 暗到明的颜色组合。
+* [d3.scaleInferno](https://github.com/d3/d3-scale#scaleInferno) - 暗到明的颜色组合。
+* [d3.scaleMagma](https://github.com/d3/d3-scale#scaleMagma) - 暗到明的颜色组合。
+* [d3.scalePlasma](https://github.com/d3/d3-scale#scalePlasma) - 暗到明的颜色组合。
+* [d3.scaleWarm](https://github.com/d3/d3-scale#scaleWarm) - 色相环颜色组合。
+* [d3.scaleCool](https://github.com/d3/d3-scale#scaleCool) - 色相环颜色组合。
+* [d3.scaleRainbow](https://github.com/d3/d3-scale#scaleRainbow) - 循环的色相环颜色组合。
+* [d3.scaleCubehelix](https://github.com/d3/d3-scale#scaleCubehelix) - 暗到明的色相环颜色组合。
+
+-----------
+上面这段翻译了但是比较模糊，以后提供点小例子解释下~
+-----------
