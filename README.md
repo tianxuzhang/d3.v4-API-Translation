@@ -585,3 +585,65 @@ XMLHttpRequest的简便封装。
 * [d3.text](https://github.com/d3/d3-request#text) - 获取文本文件。
 * [d3.tsv](https://github.com/d3/d3-request#tsv) - 获取TSV文件。
 * [d3.xml](https://github.com/d3/d3-request#xml) - 获取XML文件。
+
+## [比例尺](https://github.com/d3/d3-scale)
+
+映射抽象数据为可视化表示所需要的形式。
+
+### [连续型比例尺](https://github.com/d3/d3-scale#continuous-scales)
+
+将连续的，数量的定义域映射为连续的值域上。
+
+* [*continuous*](https://github.com/d3/d3-scale#_continuous) - 计算对应于给定的定义域的值域。
+* [*continuous*.invert](https://github.com/d3/d3-scale#continuous_invert) - 计算对应于给定的值域的定义域。
+* [*continuous*.domain](https://github.com/d3/d3-scale#continuous_domain) - 设置输入的定义域。
+* [*continuous*.range](https://github.com/d3/d3-scale#continuous_range) - 设置输出的值域。
+* [*continuous*.rangeRound](https://github.com/d3/d3-scale#continuous_rangeRound) - 设置取整后的值域
+* [*continuous*.clamp](https://github.com/d3/d3-scale#continuous_clamp) - 启用闭合。
+* [*continuous*.interpolate](https://github.com/d3/d3-scale#continuous_interpolate) - 设置输出插值器。
+* [*continuous*.ticks](https://github.com/d3/d3-scale#continuous_ticks) - 计算定义域中有代表性的刻度值。
+* [*continuous*.tickFormat](https://github.com/d3/d3-scale#continuous_tickFormat) - 格式化刻度值。
+* [*continuous*.nice](https://github.com/d3/d3-scale#continuous_nice) - 优化定义域。
+* [*continuous*.copy](https://github.com/d3/d3-scale#continuous_copy) - 创建比例尺的副本。
+* [d3.scaleLinear](https://github.com/d3/d3-scale#scaleLinear) - 创建定量线性比例尺。
+* [d3.scalePow](https://github.com/d3/d3-scale#scalePow) - 创建定量幂比例尺。
+* [*pow*](https://github.com/d3/d3-scale#_pow) - 计算对应于给定的定义域的值域。
+* [*pow*.invert](https://github.com/d3/d3-scale#pow_invert) - 计算对应于给定的值域的定义域。
+* [*pow*.exponent](https://github.com/d3/d3-scale#pow_exponent) - 设置幂指数。
+* [*pow*.domain](https://github.com/d3/d3-scale#pow_domain) - 设置输入的定义域。
+* [*pow*.range](https://github.com/d3/d3-scale#pow_range) - 设置输出的值域。
+* [*pow*.rangeRound](https://github.com/d3/d3-scale#pow_rangeRound) - 设置取整后的值域
+* [*pow*.clamp](https://github.com/d3/d3-scale#pow_clamp) - 启用闭合。
+* [*pow*.interpolate](https://github.com/d3/d3-scale#pow_interpolate) - 设置输出插值器。
+* [*pow*.ticks](https://github.com/d3/d3-scale#pow_ticks) - 计算定义域中有代表性的刻度值。
+* [*pow*.tickFormat](https://github.com/d3/d3-scale#pow_tickFormat) - 格式化刻度值。
+* [*pow*.nice](https://github.com/d3/d3-scale#pow_nice) - 优化定义域。
+* [*pow*.copy](https://github.com/d3/d3-scale#pow_copy) - 创建比例尺的副本。
+* [d3.scaleSqrt](https://github.com/d3/d3-scale#scaleSqrt) - 创建一个幂比例尺，指数是0.5。
+* [d3.scaleLog](https://github.com/d3/d3-scale#scaleLog) - 创建定量对数比例尺。
+* [*log*](https://github.com/d3/d3-scale#_log) - 计算对应于给定的定义域的值域。
+* [*log*.invert](https://github.com/d3/d3-scale#log_invert) - 计算对应于给定的值域的定义域。
+* [*log*.base](https://github.com/d3/d3-scale#log_base) - 设置对数基底。
+* [*log*.domain](https://github.com/d3/d3-scale#log_domain) - 设置输入的定义域。
+* [*log*.range](https://github.com/d3/d3-scale#log_range) - 设置输出的值域。
+* [*log*.rangeRound](https://github.com/d3/d3-scale#log_rangeRound) - 设置取整后的值域
+* [*log*.clamp](https://github.com/d3/d3-scale#log_clamp) - 启用闭合。
+* [*log*.interpolate](https://github.com/d3/d3-scale#log_interpolate) - 设置输出插值器。
+* [*log*.ticks](https://github.com/d3/d3-scale#log_ticks) - 计算定义域中有代表性的刻度值。
+* [*log*.tickFormat](https://github.com/d3/d3-scale#log_tickFormat) - 格式化刻度值。
+* [*log*.nice](https://github.com/d3/d3-scale#log_nice) - 优化定义域。
+* [*log*.copy](https://github.com/d3/d3-scale#log_copy) - 创建比例尺的副本。
+* [d3.scaleIdentity](https://github.com/d3/d3-scale#identity) - 创建定量恒等比例尺。
+* [d3.scaleTime](https://github.com/d3/d3-scale#scaleTime) - 创建时间线性比例尺。
+* [*time*](https://github.com/d3/d3-scale#_time) - 计算对应于给定的定义域的值域。
+* [*time*.invert](https://github.com/d3/d3-scale#time_invert) - 计算对应于给定的值域的定义域。
+* [*time*.domain](https://github.com/d3/d3-scale#time_domain) - 设置输入的定义域。
+* [*time*.range](https://github.com/d3/d3-scale#time_range) - 设置输出的值域。
+* [*time*.rangeRound](https://github.com/d3/d3-scale#time_rangeRound) - 设置取整后的值域
+* [*time*.clamp](https://github.com/d3/d3-scale#time_clamp) - 启用闭合。
+* [*time*.interpolate](https://github.com/d3/d3-scale#time_interpolate) - 设置输出插值器。
+* [*time*.ticks](https://github.com/d3/d3-scale#time_ticks) - 计算定义域中有代表性的刻度值。
+* [*time*.tickFormat](https://github.com/d3/d3-scale#time_tickFormat) - 格式化刻度值。
+* [*time*.nice](https://github.com/d3/d3-scale#time_nice) - 优化定义域。
+* [*time*.copy](https://github.com/d3/d3-scale#time_copy) - 创建比例尺的副本。
+* [d3.scaleUtc](https://github.com/d3/d3-scale#scaleUtc) - 创建UTC时间的线性比例尺。
