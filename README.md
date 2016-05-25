@@ -664,3 +664,30 @@ XMLHttpRequest的简便封装。
 -----------
 上面这段翻译了但是比较模糊，以后提供点小例子解释下~
 -----------
+
+### [量化比例尺](https://github.com/d3/d3-scale#quantize-scales)
+
+将连续的数量的定义域映射为离散的值域。
+
+* [d3.scaleQuantize](https://github.com/d3/d3-scale#scaleQuantize) - 创建一个均匀的量化的线性比例尺。
+* [*quantize*](https://github.com/d3/d3-scale#_quantize) - 计算对应于给定的定义域的值域。
+* [*quantize*.invertExtent](https://github.com/d3/d3-scale#quantize_invertExtent) - 计算对应于给定的值域的定义域。
+* [*quantize*.domain](https://github.com/d3/d3-scale#quantize_domain) - 设置输入的定义域。
+* [*quantize*.range](https://github.com/d3/d3-scale#quantize_range) - 设置输出的值域。
+* [*quantize*.nice](https://github.com/d3/d3-scale#quantize_nice) - 优化定义域。
+* [*quantize*.ticks](https://github.com/d3/d3-scale#quantize_ticks) - 计算定义域中有代表性的刻度值。
+* [*quantize*.tickFormat](https://github.com/d3/d3-scale#quantize_tickFormat) - 格式化刻度值。
+* [*quantize*.copy](https://github.com/d3/d3-scale#quantize_copy) - 创建比例尺的副本。
+* [d3.scaleQuantile](https://github.com/d3/d3-scale#scaleQuantile) - 创建一个分位数的量化的线性比例尺。
+* [*quantile*](https://github.com/d3/d3-scale#_quantile) - 计算对应于给定的定义域的值域。
+* [*quantile*.invertExtent](https://github.com/d3/d3-scale#quantile_invertExtent) - 计算对应于给定的值域的定义域。
+* [*quantile*.domain](https://github.com/d3/d3-scale#quantile_domain) - 设置输入的定义域。
+* [*quantile*.range](https://github.com/d3/d3-scale#quantile_range) - 设置输出的值域。
+* [*quantile*.quantiles](https://github.com/d3/d3-scale#quantile_quantiles) - 设置分位数的阈值。
+* [*quantile*.copy](https://github.com/d3/d3-scale#quantile_copy) - 创建比例尺的副本。
+* [d3.scaleThreshold](https://github.com/d3/d3-scale#scaleThreshold) - 创建一个任意的量化的线性比例尺。
+* [*threshold*](https://github.com/d3/d3-scale#_threshold) - 计算对应于给定的定义域的值域。
+* [*threshold*.invertExtent](https://github.com/d3/d3-scale#threshold_invertExtent) - 计算对应于给定的值域的定义域。
+* [*threshold*.domain](https://github.com/d3/d3-scale#threshold_domain) - 设置输入的定义域。
+* [*threshold*.range](https://github.com/d3/d3-scale#threshold_range) - 设置输出的值域。
+* [*threshold*.copy](https://github.com/d3/d3-scale#threshold_copy) - 创建比例尺的副本。
