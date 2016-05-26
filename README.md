@@ -691,3 +691,39 @@ XMLHttpRequest的简便封装。
 * [*threshold*.domain](https://github.com/d3/d3-scale#threshold_domain) - 设置输入的定义域。
 * [*threshold*.range](https://github.com/d3/d3-scale#threshold_range) - 设置输出的值域。
 * [*threshold*.copy](https://github.com/d3/d3-scale#threshold_copy) - 创建比例尺的副本。
+
+### [序数比例尺](https://github.com/d3/d3-scale#ordinal-scales)
+
+定义域和值域都是离散的。
+
+* [d3.scaleOrdinal](https://github.com/d3/d3-scale#scaleOrdinal) - 创建一个序数比例尺。
+* [*ordinal*](https://github.com/d3/d3-scale#_ordinal) - 计算对应于给定的定义域的值域。
+* [*ordinal*.domain](https://github.com/d3/d3-scale#ordinal_domain) - 设置输入的定义域。
+* [*ordinal*.range](https://github.com/d3/d3-scale#ordinal_range) - 设置输出的值域。
+* [*ordinal*.unknown](https://github.com/d3/d3-scale#ordinal_unknown) - 设置未知输入域的输出值。
+* [*ordinal*.copy](https://github.com/d3/d3-scale#ordinal_copy) - 创建比例尺的副本。
+* [d3.scaleImplicit](https://github.com/d3/d3-scale#scaleImplicit) - 隐域的一个特殊的未知值。
+* [d3.scaleBand](https://github.com/d3/d3-scale#scaleBand) - 创建序数段比例尺。
+* [*band*](https://github.com/d3/d3-scale#_band) - 计算对应于给定的定义域的值域。
+* [*band*.domain](https://github.com/d3/d3-scale#band_domain) - 设置输入的定义域。
+* [*band*.range](https://github.com/d3/d3-scale#band_range) - 设置输出的值域。
+* [*band*.rangeRound](https://github.com/d3/d3-scale#band_rangeRound) - 设置输出的值域并取整。
+* [*band*.round](https://github.com/d3/d3-scale#band_round) - 取整。
+* [*band*.paddingInner](https://github.com/d3/d3-scale#band_paddingInner) - 段间距。
+* [*band*.paddingOuter](https://github.com/d3/d3-scale#band_paddingOuter) - 外边距。
+* [*band*.padding](https://github.com/d3/d3-scale#band_padding) - 设置间距（段间距和外边距）。
+* [*band*.align](https://github.com/d3/d3-scale#band_align) - 设置段对齐。
+* [*band*.bandwidth](https://github.com/d3/d3-scale#band_bandwidth) - 获取每段宽度。
+* [*band*.step](https://github.com/d3/d3-scale#band_step) - 开始相邻段之间的距离。
+* [*band*.copy](https://github.com/d3/d3-scale#band_copy) - 创建比例尺的副本。
+* [d3.scalePoint](https://github.com/d3/d3-scale#scalePoint) - 创建序数点比例尺。
+* [*point*](https://github.com/d3/d3-scale#_point) - 计算对应于给定的定义域的值域。
+* [*point*.domain](https://github.com/d3/d3-scale#point_domain) - 设置输入的定义域。
+* [*point*.range](https://github.com/d3/d3-scale#point_range) - 设置输出的值域。
+* [*point*.rangeRound](https://github.com/d3/d3-scale#point_rangeRound) - 设置输出的值域并取整。
+* [*point*.round](https://github.com/d3/d3-scale#point_round) - 取整。
+* [*point*.padding](https://github.com/d3/d3-scale#point_padding) - 外边距。
+* [*point*.align](https://github.com/d3/d3-scale#point_align) - 设置点对齐。
+* [*point*.bandwidth](https://github.com/d3/d3-scale#point_bandwidth) - 返回0。
+* [*point*.step](https://github.com/d3/d3-scale#point_step) - 开始相邻点之间的距离。
+* [*point*.copy](https://github.com/d3/d3-scale#point_copy) - 创建比例尺的副本。
