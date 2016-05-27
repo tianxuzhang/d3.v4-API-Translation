@@ -727,3 +727,25 @@ XMLHttpRequest的简便封装。
 * [*point*.bandwidth](https://github.com/d3/d3-scale#point_bandwidth) - 返回0。
 * [*point*.step](https://github.com/d3/d3-scale#point_step) - 开始相邻点之间的距离。
 * [*point*.copy](https://github.com/d3/d3-scale#point_copy) - 创建比例尺的副本。
+* [d3.scaleCategory10](https://github.com/d3/d3-scale#scaleCategory10) - 10种分类颜色。
+* [d3.scaleCategory20](https://github.com/d3/d3-scale#scaleCategory20) - 20种分类颜色。
+* [d3.scaleCategory20b](https://github.com/d3/d3-scale#scaleCategory20b) - 20种分类颜色。
+* [d3.scaleCategory20c](https://github.com/d3/d3-scale#scaleCategory20c) - 20种分类颜色。
+
+## [选择器](https://github.com/d3/d3-selection)
+
+通过选择元素和加入数据来转换DOM。
+
+### [选择元素](https://github.com/d3/d3-selection#selecting-elements)
+
+* [d3.selection](https://github.com/d3/d3-selection#selection) - 选择根文档元素。
+* [d3.select](https://github.com/d3/d3-selection#select) - 从文档中选择一个元素。
+* [d3.selectAll](https://github.com/d3/d3-selection#selectAll) - 从文档中选择多个元素。
+* [*selection*.select](https://github.com/d3/d3-selection#selection_select) - 选择每个选中元素的一个后代元素。
+* [*selection*.selectAll](https://github.com/d3/d3-selection#selection_selectAll) - 选择每个选中元素的多个后代元素。
+* [*selection*.filter](https://github.com/d3/d3-selection#selection_filter) - 基于数据过滤元素。
+* [*selection*.merge](https://github.com/d3/d3-selection#selection_merge) - 合并两个选择。
+* [d3.matcher](https://github.com/d3/d3-selection#matcher) - 测试一个元素是否匹配选择器。
+* [d3.selector](https://github.com/d3/d3-selection#selector) - 选择一个元素。
+* [d3.selectorAll](https://github.com/d3/d3-selection#selectorAll) - 选择多个元素。
+* [d3.window](https://github.com/d3/d3-selection#window) - 得到节点的所有者窗口。
