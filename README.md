@@ -749,3 +749,19 @@ XMLHttpRequest的简便封装。
 * [d3.selector](https://github.com/d3/d3-selection#selector) - 选择一个元素。
 * [d3.selectorAll](https://github.com/d3/d3-selection#selectorAll) - 选择多个元素。
 * [d3.window](https://github.com/d3/d3-selection#window) - 得到节点的所有者窗口。
+
+### [修改元素](https://github.com/d3/d3-selection#modifying-elements)
+
+* [*selection*.attr](https://github.com/d3/d3-selection#selection_attr) - 设置或获取特性。
+* [*selection*.classed](https://github.com/d3/d3-selection#selection_classed) - 获取，添加或移除CSS类。
+* [*selection*.style](https://github.com/d3/d3-selection#selection_style) - 设置或获取样式。
+* [*selection*.property](https://github.com/d3/d3-selection#selection_property) - 设置或获取行内属性。
+* [*selection*.text](https://github.com/d3/d3-selection#selection_text) - 设置或获取文本内容。
+* [*selection*.html](https://github.com/d3/d3-selection#selection_html) - 设置或获取inner HTML。
+* [*selection*.append](https://github.com/d3/d3-selection#selection_append) - 创建，添加或选择新的元素。
+* [*selection*.remove](https://github.com/d3/d3-selection#selection_remove) - 移除文档中的元素。
+* [*selection*.sort](https://github.com/d3/d3-selection#selection_sort) - 基于数据给文档中的元素排序。
+* [*selection*.order](https://github.com/d3/d3-selection#selection_order) - 重排列文档中的元素以匹配选择中的顺序。
+* [*selection*.raise](https://github.com/d3/d3-selection#selection_raise) - 重新排列每个元素为父元素的最后一个子节点。
+* [*selection*.lower](https://github.com/d3/d3-selection#selection_lower) - 重新排列每个元素为父元素的第一个子节点。
+* [d3.creator](https://github.com/d3/d3-selection#creator) - 通过名称创建元素。
