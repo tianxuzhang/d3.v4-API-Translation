@@ -765,3 +765,10 @@ XMLHttpRequest的简便封装。
 * [*selection*.raise](https://github.com/d3/d3-selection#selection_raise) - 重新排列每个元素为父元素的最后一个子节点。
 * [*selection*.lower](https://github.com/d3/d3-selection#selection_lower) - 重新排列每个元素为父元素的第一个子节点。
 * [d3.creator](https://github.com/d3/d3-selection#creator) - 通过名称创建元素。
+
+### [数据绑定](https://github.com/d3/d3-selection#joining-data)
+
+* [*selection*.data](https://github.com/d3/d3-selection#selection_data) - 元素和数据绑定。
+* [*selection*.enter](https://github.com/d3/d3-selection#selection_enter) - 获得进入（enter）选择器（数据无元素）。
+* [*selection*.exit](https://github.com/d3/d3-selection#selection_exit) - 获得退出（exit）选择器（元素无数据）。 
+* [*selection*.datum](https://github.com/d3/d3-selection#selection_datum) - 获取或设置元素的数据（不绑定）。
