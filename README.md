@@ -772,3 +772,13 @@ XMLHttpRequest的简便封装。
 * [*selection*.enter](https://github.com/d3/d3-selection#selection_enter) - 获得进入（enter）选择器（数据无元素）。
 * [*selection*.exit](https://github.com/d3/d3-selection#selection_exit) - 获得退出（exit）选择器（元素无数据）。 
 * [*selection*.datum](https://github.com/d3/d3-selection#selection_datum) - 获取或设置元素的数据（不绑定）。
+
+### [事件处理](https://github.com/d3/d3-selection#handling-events)
+
+* [*selection*.on](https://github.com/d3/d3-selection#selection_on) - 添加或移除事件监听器。
+* [*selection*.dispatch](https://github.com/d3/d3-selection#selection_dispatch) - 分发自定义事件。
+* [d3.event](https://github.com/d3/d3-selection#event) - 交互中的当前用户事件。
+* [d3.customEvent](https://github.com/d3/d3-selection#customEvent) - 暂时定义一个自定义事件。
+* [d3.mouse](https://github.com/d3/d3-selection#mouse) - 获取相对给定容器的鼠标位置。
+* [d3.touch](https://github.com/d3/d3-selection#touch) - 获取相对给定容器的单点触控位置。
+* [d3.touches](https://github.com/d3/d3-selection#touches) - 获取相对给定容器的多点触控位置。
