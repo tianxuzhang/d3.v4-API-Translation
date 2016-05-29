@@ -11,7 +11,7 @@ D3.js 4.0 API中文翻译
 
 * 2016-5-20日下午五点左右，D3的star数超过50000次，位列所有前端库第二（仅次于boostrap）。自从2013年关注D3以来，几乎都超过每个月1000的增幅上涨着。虽然距离排名第一的前端库boostrap有些差距，但D3的这种发展速度和受欢迎程度相信会继续给我带来更多的惊喜。
 
-* 翻译D3 V4的API发现与D3 V3的差别很大，功能也更多更完善，就力导向图就从原来的12个功能函数增加到现在的42个（包含二级函数），这势必会给我们做数据可视化带来更多的便利。
+* 翻译D3 V4的API发现与D3 V3的差别很大，功能也更多更完善，就力导向图就从原来的12个功能函数增加到现在的41个（包含二级函数），这势必会给我们做数据可视化带来更多的便利。
 
 * 路径这部分的API主要用来将Canvas命令转换为SVG路径的d属性的值。本质上最后还是用SVG画图。这一点可能跟我们想要的直接用Canvas画大数据量数据的需求不一样，看来以后还是得手动来实现了，这一点略微还是有些失望的~
 
@@ -796,3 +796,23 @@ XMLHttpRequest的简便封装。
 
 * [d3.namespace](https://github.com/d3/d3-selection#namespace) - 限定XML命名空间，如“xlink:href "。
 * [d3.namespaces](https://github.com/d3/d3-selection#namespaces) - 内置的XML命名空间。
+
+## [形状](https://github.com/d3/d3-shape)
+
+可视化的图形原语。
+
+### [弧](https://github.com/d3/d3-shape#arcs)
+
+圆形或环形扇区，如饼图或甜甜圈图。
+
+* [d3.arc](https://github.com/d3/d3-shape#arc) - 创建一个新的弧生成器。
+* [*arc*](https://github.com/d3/d3-shape#_arc) - 创建给定数据的弧。
+* [*arc*.centroid](https://github.com/d3/d3-shape#arc_centroid) - 弧中心。
+* [*arc*.innerRadius](https://github.com/d3/d3-shape#arc_innerRadius) - 设置内径。
+* [*arc*.outerRadius](https://github.com/d3/d3-shape#arc_outerRadius) - 设置外径。
+* [*arc*.cornerRadius](https://github.com/d3/d3-shape#arc_cornerRadius) - 设置圆角半径。
+* [*arc*.startAngle](https://github.com/d3/d3-shape#arc_startAngle) - 设置起始角度。
+* [*arc*.endAngle](https://github.com/d3/d3-shape#arc_endAngle) - 设置结束角度。
+* [*arc*.padAngle](https://github.com/d3/d3-shape#arc_padAngle) - 设置相邻弧之间的夹角。
+* [*arc*.padRadius](https://github.com/d3/d3-shape#arc_padRadius) - 设置线性填充半径。
+* [*arc*.context](https://github.com/d3/d3-shape#arc_context) - 设置渲染上下文。
