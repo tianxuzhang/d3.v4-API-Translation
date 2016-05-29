@@ -782,3 +782,12 @@ XMLHttpRequest的简便封装。
 * [d3.mouse](https://github.com/d3/d3-selection#mouse) - 获取相对给定容器的鼠标位置。
 * [d3.touch](https://github.com/d3/d3-selection#touch) - 获取相对给定容器的单点触控位置。
 * [d3.touches](https://github.com/d3/d3-selection#touches) - 获取相对给定容器的多点触控位置。
+
+### [控制语句](https://github.com/d3/d3-selection#control-flow)
+
+* [*selection*.each](https://github.com/d3/d3-selection#selection_each) - 为每个元素调用一次指定的方法。
+* [*selection*.call](https://github.com/d3/d3-selection#selection_call) - 选择器调用指定的方法。
+* [*selection*.empty](https://github.com/d3/d3-selection#selection_empty) - 返回是否是空选择。
+* [*selection*.nodes](https://github.com/d3/d3-selection#selection_nodes) - 返回所有选中元素的数组。
+* [*selection*.node](https://github.com/d3/d3-selection#selection_node) - 返回第一个非空元素。
+* [*selection*.size](https://github.com/d3/d3-selection#selection_size) - 返回元素数量。
