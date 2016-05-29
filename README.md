@@ -791,3 +791,8 @@ XMLHttpRequest的简便封装。
 * [*selection*.nodes](https://github.com/d3/d3-selection#selection_nodes) - 返回所有选中元素的数组。
 * [*selection*.node](https://github.com/d3/d3-selection#selection_node) - 返回第一个非空元素。
 * [*selection*.size](https://github.com/d3/d3-selection#selection_size) - 返回元素数量。
+
+### [命名空间](https://github.com/d3/d3-selection#namespaces)
+
+* [d3.namespace](https://github.com/d3/d3-selection#namespace) - 限定XML命名空间，如“xlink:href "。
+* [d3.namespaces](https://github.com/d3/d3-selection#namespaces) - 内置的XML命名空间。
