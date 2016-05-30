@@ -816,3 +816,16 @@ XMLHttpRequest的简便封装。
 * [*arc*.padAngle](https://github.com/d3/d3-shape#arc_padAngle) - 设置相邻弧之间的夹角。
 * [*arc*.padRadius](https://github.com/d3/d3-shape#arc_padRadius) - 设置线性填充半径。
 * [*arc*.context](https://github.com/d3/d3-shape#arc_context) - 设置渲染上下文。
+
+### [饼](https://github.com/d3/d3-shape#pies)
+
+计算用于展示饼图或甜环形图的必要的角度值。
+
+* [d3.pie](https://github.com/d3/d3-shape#pie) - 创建一个饼生成器。
+* [*pie*](https://github.com/d3/d3-shape#_pie) - 计算给定数据集的角度值。
+* [*pie*.value](https://github.com/d3/d3-shape#pie_value) - 设置值访问器。
+* [*pie*.sort](https://github.com/d3/d3-shape#pie_sort) - 设置排序比较器。
+* [*pie*.sortValues](https://github.com/d3/d3-shape#pie_sortValues) - 设置排序比较器。
+* [*pie*.startAngle](https://github.com/d3/d3-shape#pie_startAngle) - 设置整体的起始角度。
+* [*pie*.endAngle](https://github.com/d3/d3-shape#pie_endAngle) - 设置整体的结束角度。
+* [*pie*.padAngle](https://github.com/d3/d3-shape#pie_padAngle) - 设置相邻弧间隔角度。
