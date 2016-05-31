@@ -829,3 +829,22 @@ XMLHttpRequest的简便封装。
 * [*pie*.startAngle](https://github.com/d3/d3-shape#pie_startAngle) - 设置整体的起始角度。
 * [*pie*.endAngle](https://github.com/d3/d3-shape#pie_endAngle) - 设置整体的结束角度。
 * [*pie*.padAngle](https://github.com/d3/d3-shape#pie_padAngle) - 设置相邻弧间隔角度。
+
+### [线](https://github.com/d3/d3-shape#lines)
+
+用于绘制线图的样条曲线或者折线。
+
+* [d3.line](https://github.com/d3/d3-shape#line) - 创建一个新的线生成器。
+* [*line*](https://github.com/d3/d3-shape#_line) - 生成给定数据的线。
+* [*line*.x](https://github.com/d3/d3-shape#line_x) - 设置*x*访问器。
+* [*line*.y](https://github.com/d3/d3-shape#line_y) - 设置*y*访问器。
+* [*line*.defined](https://github.com/d3/d3-shape#line_defined) - 设置定义访问器。
+* [*line*.curve](https://github.com/d3/d3-shape#line_curve) - 设置曲线插值器。
+* [*line*.context](https://github.com/d3/d3-shape#line_context) - 设置渲染上下文。
+* [d3.radialLine](https://github.com/d3/d3-shape#radialLine) - 创建一个新的径向线生成器。
+* [*radialLine*](https://github.com/d3/d3-shape#_radialLine) - 生成给定数据的线。
+* [*radialLine*.angle](https://github.com/d3/d3-shape#radialLine_angle) - 设置角度访问器。
+* [*radialLine*.radius](https://github.com/d3/d3-shape#radialLine_radius) - 设置半径访问器。
+* [*radialLine*.defined](https://github.com/d3/d3-shape#radialLine_defined) - 设置定义访问器。
+* [*radialLine*.curve](https://github.com/d3/d3-shape#radialLine_curve) - 设置曲线插值器。
+* [*radialLine*.context](https://github.com/d3/d3-shape#radialLine_context) - 设置渲染上下文。
