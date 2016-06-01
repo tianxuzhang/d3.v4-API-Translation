@@ -875,3 +875,31 @@ XMLHttpRequest的简便封装。
 * [*radialArea*.defined](https://github.com/d3/d3-shape#radialArea_defined) - 设置定义点访问器。
 * [*radialArea*.curve](https://github.com/d3/d3-shape#radialArea_curve) - 设置曲线插值器。
 * [*radialArea*.context](https://github.com/d3/d3-shape#radialArea_context) - 设置渲染上下文。
+
+### [曲线](https://github.com/d3/d3-shape#curves)
+
+通过在点间插值生成一条曲线。
+
+* [d3.curveBasis](https://github.com/d3/d3-shape#curveBasis) - 立方基本样条，终点循环。
+* [d3.curveBasisClosed](https://github.com/d3/d3-shape#curveBasisClosed) - 闭合立方基本样条。
+* [d3.curveBasisOpen](https://github.com/d3/d3-shape#curveBasisOpen) - 开放立方基本样条。
+* [d3.curveBundle](https://github.com/d3/d3-shape#curveBundle) - 直立方基本样条。
+* [d3.curveCardinal](https://github.com/d3/d3-shape#curveCardinal) - 三次C样条。
+* [d3.curveCardinalClosed](https://github.com/d3/d3-shape#curveCardinalClosed) - 闭合三次C样条。
+* [d3.curveCardinalOpen](https://github.com/d3/d3-shape#curveCardinalOpen) - 开放三次C样条。
+* [d3.curveCatmullRom](https://github.com/d3/d3-shape#curveCatmullRom) - 立方Catmull-Rom样条。
+* [d3.curveCatmullRomClosed](https://github.com/d3/d3-shape#curveCatmullRomClosed) - 闭合立方Catmull-Rom样条。
+* [d3.curveCatmullRomOpen](https://github.com/d3/d3-shape#curveCatmullRomOpen) - 开放立方Catmull-Rom样条。
+* [d3.curveLinear](https://github.com/d3/d3-shape#curveLinear) - 折线。
+* [d3.curveLinearClosed](https://github.com/d3/d3-shape#curveLinearClosed) - 闭合折线。
+* [d3.curveMonotoneX](https://github.com/d3/d3-shape#curveMonotoneX) - 立方样条。鉴于y单调性，保持x。
+* [d3.curveMonotoneY](https://github.com/d3/d3-shape#curveMonotoneY) - 立方样条。鉴于y单调性，保持x。
+* [d3.curveNatural](https://github.com/d3/d3-shape#curveNatural) - 自然三次样条。
+* [d3.curveStep](https://github.com/d3/d3-shape#curveStep) - 分段常值函数。
+* [d3.curveStepAfter](https://github.com/d3/d3-shape#curveStepAfter) - 分段常值函数。
+* [d3.curveStepBefore](https://github.com/d3/d3-shape#curveStepBefore) - 分段常值函数。
+* [*curve*.areaStart](https://github.com/d3/d3-shape#curve_areaStart) - 开始一个面积片段。
+* [*curve*.areaEnd](https://github.com/d3/d3-shape#curve_areaEnd) - 结束一个面积片段。
+* [*curve*.lineStart](https://github.com/d3/d3-shape#curve_lineStart) - 开始一条新的线段。
+* [*curve*.lineEnd](https://github.com/d3/d3-shape#curve_lineEnd) - 结束一条新的线段。
+* [*curve*.point](https://github.com/d3/d3-shape#curve_point) - 给当前线段加一个点。
