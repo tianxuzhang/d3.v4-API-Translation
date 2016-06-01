@@ -848,3 +848,30 @@ XMLHttpRequest的简便封装。
 * [*radialLine*.defined](https://github.com/d3/d3-shape#radialLine_defined) - 设置定义访问器。
 * [*radialLine*.curve](https://github.com/d3/d3-shape#radialLine_curve) - 设置曲线插值器。
 * [*radialLine*.context](https://github.com/d3/d3-shape#radialLine_context) - 设置渲染上下文。
+
+### [面积](https://github.com/d3/d3-shape#areas)
+
+由顶线基线构成，用于面积图。
+
+* [d3.area](https://github.com/d3/d3-shape#area) - 创建一个新的面积生成器。
+* [*area*](https://github.com/d3/d3-shape#_area) - 为给定数据集生成面积。
+* [*area*.x](https://github.com/d3/d3-shape#area_x) - 设置 *x0* 和 *x1* 访问器。
+* [*area*.x0](https://github.com/d3/d3-shape#area_x0) - 设置 基线的 *x* 访问器。
+* [*area*.x1](https://github.com/d3/d3-shape#area_x1) - 设置顶线的 *x* 访问器。
+* [*area*.y](https://github.com/d3/d3-shape#area_y) - 设置 *y0* 和 *y1* 访问器。
+* [*area*.y0](https://github.com/d3/d3-shape#area_y0) - 设置基线的 *y* 访问器。
+* [*area*.y1](https://github.com/d3/d3-shape#area_y1) - 设置顶线的 *y* 访问器。
+* [*area*.defined](https://github.com/d3/d3-shape#area_defined) - 设置定义点访问器。
+* [*area*.curve](https://github.com/d3/d3-shape#area_curve) - 设置曲线插值器。
+* [*area*.context](https://github.com/d3/d3-shape#area_context) - 设置渲染上下文。
+* [d3.radialArea](https://github.com/d3/d3-shape#radialArea) - 创建一个新的径向面积生成器。
+* [*radialArea*](https://github.com/d3/d3-shape#_radialArea) - 为给定数据集生成面积。
+* [*radialArea*.angle](https://github.com/d3/d3-shape#radialArea_angle) - 设置起始角度/结束角度访问器。
+* [*radialArea*.startAngle](https://github.com/d3/d3-shape#radialArea_startAngle) - 设置起始角度访问器。
+* [*radialArea*.endAngle](https://github.com/d3/d3-shape#radialArea_endAngle) - 设置结束角度访问器。
+* [*radialArea*.radius](https://github.com/d3/d3-shape#radialArea_radius) - 设置内半径/外半径访问器。
+* [*radialArea*.innerRadius](https://github.com/d3/d3-shape#radialArea_innerRadius) - 设置内半径访问器。
+* [*radialArea*.outerRadius](https://github.com/d3/d3-shape#radialArea_outerRadius) - 设置外半径访问器。
+* [*radialArea*.defined](https://github.com/d3/d3-shape#radialArea_defined) - 设置定义点访问器。
+* [*radialArea*.curve](https://github.com/d3/d3-shape#radialArea_curve) - 设置曲线插值器。
+* [*radialArea*.context](https://github.com/d3/d3-shape#radialArea_context) - 设置渲染上下文。
