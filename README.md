@@ -903,3 +903,22 @@ XMLHttpRequest的简便封装。
 * [*curve*.lineStart](https://github.com/d3/d3-shape#curve_lineStart) - 开始一条新的线段。
 * [*curve*.lineEnd](https://github.com/d3/d3-shape#curve_lineEnd) - 结束一条新的线段。
 * [*curve*.point](https://github.com/d3/d3-shape#curve_point) - 给当前线段加一个点。
+
+### [符号](https://github.com/d3/d3-shape#symbols)
+
+一些内置形状，用于散点图。
+
+* [d3.symbol](https://github.com/d3/d3-shape#symbol) - 创建一个新的形状生成器。
+* [*symbol*](https://github.com/d3/d3-shape#_symbol) - 为给定数据生成符号。
+* [*symbol*.type](https://github.com/d3/d3-shape#symbol_type) - 设置符号类型。
+* [*symbol*.size](https://github.com/d3/d3-shape#symbol_size) - 设置符号尺寸。
+* [*symbol*.context](https://github.com/d3/d3-shape#symbol_context) - 设置渲染上下文。
+* [d3.symbols](https://github.com/d3/d3-shape#symbols) - 符号类型数组。
+* [d3.symbolCircle](https://github.com/d3/d3-shape#symbolCircle) - 圆形。
+* [d3.symbolCross](https://github.com/d3/d3-shape#symbolCross) - 十字。
+* [d3.symbolDiamond](https://github.com/d3/d3-shape#symbolDiamond) - 菱形。
+* [d3.symbolSquare](https://github.com/d3/d3-shape#symbolSquare) - 方形。
+* [d3.symbolStar](https://github.com/d3/d3-shape#symbolStar) - 五角星。
+* [d3.symbolTriangle](https://github.com/d3/d3-shape#symbolTriangle) - 上三角。
+* [d3.symbolWye](https://github.com/d3/d3-shape#symbolWye) - Y形。
+* [*symbolType*.draw](https://github.com/d3/d3-shape#symbolType_draw) - 在给定的容器中绘制符号。
