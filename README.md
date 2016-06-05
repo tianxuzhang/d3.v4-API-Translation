@@ -922,3 +922,23 @@ XMLHttpRequest的简便封装。
 * [d3.symbolTriangle](https://github.com/d3/d3-shape#symbolTriangle) - 上三角。
 * [d3.symbolWye](https://github.com/d3/d3-shape#symbolWye) - Y形。
 * [*symbolType*.draw](https://github.com/d3/d3-shape#symbolType_draw) - 在给定的容器中绘制符号。
+
+### [堆叠](https://github.com/d3/d3-shape#stacks)
+
+将形状堆叠起来，就像分段条形图那样。
+
+* [d3.stack](https://github.com/d3/d3-shape#stack) - 创建一个新的堆叠生成器。
+* [*stack*](https://github.com/d3/d3-shape#_stack) - 为给定数据生成堆叠数据。
+* [*stack*.keys](https://github.com/d3/d3-shape#stack_keys) - 设置键访问器。
+* [*stack*.value](https://github.com/d3/d3-shape#stack_value) - 设置值访问器。
+* [*stack*.order](https://github.com/d3/d3-shape#stack_order) - 设置排序访问器。
+* [*stack*.offset](https://github.com/d3/d3-shape#stack_offset) - 设置偏移访问器。
+* [d3.stackOrderAscending](https://github.com/d3/d3-shape#stackOrderAscending) - 将最小值放在底部。
+* [d3.stackOrderDescending](https://github.com/d3/d3-shape#stackOrderDescending) - 将最大值放在底部。
+* [d3.stackOrderInsideOut](https://github.com/d3/d3-shape#stackOrderInsideOut) - 将最大值放在中部。
+* [d3.stackOrderNone](https://github.com/d3/d3-shape#stackOrderNone) - 使用给定的系列顺序。
+* [d3.stackOrderReverse](https://github.com/d3/d3-shape#stackOrderReverse) - 系列给定的系列相反的顺序。
+* [d3.stackOffsetExpand](https://github.com/d3/d3-shape#stackOffsetExpand) - 标准化为0=1之间。
+* [d3.stackOffsetNone](https://github.com/d3/d3-shape#stackOffsetNone) - 应用零基准。
+* [d3.stackOffsetSilhouette](https://github.com/d3/d3-shape#stackOffsetSilhouette) - 将流图居中在0附近。
+* [d3.stackOffsetWiggle](https://github.com/d3/d3-shape#stackOffsetWiggle) - 流图最小摆动。
