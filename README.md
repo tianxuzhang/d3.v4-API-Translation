@@ -1062,3 +1062,33 @@ XMLHttpRequest的简便封装。
 * [*voronoi*.y](https://github.com/d3/d3-voronoi#voronoi_y) - 设置*y*访问器。
 * [*voronoi*.extent](https://github.com/d3/d3-voronoi#voronoi_extent) - 设置点的观察范围。
 * [*voronoi*.size](https://github.com/d3/d3-voronoi#voronoi_size) - 设置点的观察范围。
+
+## [缩放](https://github.com/d3/d3-zoom)
+
+使用鼠标或触摸平移和缩放SVG, HTML 或 Canvas。
+
+* [d3.zoom](https://github.com/d3/d3-zoom#zoom) -
+* [*zoom*](https://github.com/d3/d3-zoom#_zoom) -
+* [*zoom*.transform](https://github.com/d3/d3-zoom#zoom_transform) -
+* [*zoom*.translateBy](https://github.com/d3/d3-zoom#zoom_translateBy) -
+* [*zoom*.scaleBy](https://github.com/d3/d3-zoom#zoom_scaleBy) -
+* [*zoom*.scaleTo](https://github.com/d3/d3-zoom#zoom_scaleTo) -
+* [*zoom*.filter](https://github.com/d3/d3-zoom#zoom_filter) -
+* [*zoom*.extent](https://github.com/d3/d3-zoom#zoom_extent) -
+* [*zoom*.scaleExtent](https://github.com/d3/d3-zoom#zoom_scaleExtent) -
+* [*zoom*.translateExtent](https://github.com/d3/d3-zoom#zoom_translateExtent) -
+* [*zoom*.duration](https://github.com/d3/d3-zoom#zoom_duration) -
+* [*zoom*.on](https://github.com/d3/d3-zoom#zoom_on) -
+* [d3.zoomTransform](https://github.com/d3/d3-zoom#zoomTransform) -
+* [*transform*.scale](https://github.com/d3/d3-zoom#transform_scale) -
+* [*transform*.translate](https://github.com/d3/d3-zoom#transform_translate) -
+* [*transform*.apply](https://github.com/d3/d3-zoom#transform_apply) -
+* [*transform*.applyX](https://github.com/d3/d3-zoom#transform_applyX) -
+* [*transform*.applyY](https://github.com/d3/d3-zoom#transform_applyY) -
+* [*transform*.invert](https://github.com/d3/d3-zoom#transform_invert) -
+* [*transform*.invertX](https://github.com/d3/d3-zoom#transform_invertX) -
+* [*transform*.invertY](https://github.com/d3/d3-zoom#transform_invertY) -
+* [*transform*.rescaleX](https://github.com/d3/d3-zoom#transform_rescaleX) -
+* [*transform*.rescaleY](https://github.com/d3/d3-zoom#transform_rescaleY) -
+* [*transform*.toString](https://github.com/d3/d3-zoom#transform_toString) -
+* [d3.zoomIdentity](https://github.com/d3/d3-zoom#zoomIdentity) -
