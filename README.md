@@ -942,3 +942,19 @@ XMLHttpRequest的简便封装。
 * [d3.stackOffsetNone](https://github.com/d3/d3-shape#stackOffsetNone) - 应用零基准。
 * [d3.stackOffsetSilhouette](https://github.com/d3/d3-shape#stackOffsetSilhouette) - 将流图居中在0附近。
 * [d3.stackOffsetWiggle](https://github.com/d3/d3-shape#stackOffsetWiggle) - 流图最小摆动。
+
+## [时间格式化](https://github.com/d3/d3-time-format)
+
+解析和格式化时间。
+
+* [d3.timeFormat](https://github.com/d3/d3-time-format#timeFormat) - enUs.format别名。
+* [d3.timeParse](https://github.com/d3/d3-time-format#timeParse) - enUs.parse别名。
+* [d3.utcFormat](https://github.com/d3/d3-time-format#utcFormat) -  enUs.utcFormat别名。
+* [d3.utcFormat](https://github.com/d3/d3-time-format#utcParse) -  enUs.utcParse别名。
+* [d3.isoFormat](https://github.com/d3/d3-time-format#isoFormat) - ISO 8601 UTC格式化。
+* [d3.isoParse](https://github.com/d3/d3-time-format#isoParse) - ISO 8601 UTC解析器。
+* [d3.timeFormatLocale](https://github.com/d3/d3-time-format#locale) - 自定义本地化。
+* [*locale*.format](https://github.com/d3/d3-time-format#locale_format) - 创建一个时间格式化器。
+* [*locale*.parse](https://github.com/d3/d3-time-format#locale_parse) - 创建一个时间解析器。
+* [*locale*.utcFormat](https://github.com/d3/d3-time-format#locale_utcFormat) - 创建一个UTC格式化器。
+* [*locale*.utcParse](https://github.com/d3/d3-time-format#locale_utcParse) - 创建一个UTC解析器。
