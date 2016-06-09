@@ -1,5 +1,5 @@
 # d3.v4-API-Translation
-D3.js 4.0 API中文翻译
+D3.js 4.0 API中文手册
 
 # 好吧，说说我要做啥？
 今天打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
