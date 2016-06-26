@@ -865,6 +865,10 @@ XMLHttpRequest的简便封装。
 * [*area*.defined](https://github.com/d3/d3-shape#area_defined) - 设置定义点访问器。
 * [*area*.curve](https://github.com/d3/d3-shape#area_curve) - 设置曲线插值器。
 * [*area*.context](https://github.com/d3/d3-shape#area_context) - 设置渲染上下文。
+* [*area*.lineX0](https://github.com/d3/d3-shape#area_lineX0) - 为区域左边缘得到一条线。
+* [*area*.lineX1](https://github.com/d3/d3-shape#area_lineX1) - 为区域右边缘得到一条线。
+* [*area*.lineY0](https://github.com/d3/d3-shape#area_lineY0) - 为区域上边缘得到一条线。
+* [*area*.lineY1](https://github.com/d3/d3-shape#area_lineY1) - 为区域下边缘得到一条线。
 * [d3.radialArea](https://github.com/d3/d3-shape#radialArea) - 创建一个新的径向面积生成器。
 * [*radialArea*](https://github.com/d3/d3-shape#_radialArea) - 为给定数据集生成面积。
 * [*radialArea*.angle](https://github.com/d3/d3-shape#radialArea_angle) - 设置起始角度/结束角度访问器。
@@ -876,6 +880,10 @@ XMLHttpRequest的简便封装。
 * [*radialArea*.defined](https://github.com/d3/d3-shape#radialArea_defined) - 设置定义点访问器。
 * [*radialArea*.curve](https://github.com/d3/d3-shape#radialArea_curve) - 设置曲线插值器。
 * [*radialArea*.context](https://github.com/d3/d3-shape#radialArea_context) - 设置渲染上下文。
+* [*radialArea*.lineStartAngle](https://github.com/d3/d3-shape#area_lineStartAngle) - 为区域起始边缘得到一条线。
+* [*radialArea*.lineEndAngle](https://github.com/d3/d3-shape#area_lineEndAngle) - 为区域结束边缘得到一条线。
+* [*radialArea*.lineInnerRadius](https://github.com/d3/d3-shape#area_lineInnerRadius) - 为区域内边缘得到一条线。
+* [*radialArea*.lineOuterRadius](https://github.com/d3/d3-shape#area_lineOuterRadius) - 为区域外边缘得到一条线。
 
 ### [曲线](https://github.com/d3/d3-shape#curves)
 
@@ -888,9 +896,11 @@ XMLHttpRequest的简便封装。
 * [d3.curveCardinal](https://github.com/d3/d3-shape#curveCardinal) - 三次C样条。
 * [d3.curveCardinalClosed](https://github.com/d3/d3-shape#curveCardinalClosed) - 闭合三次C样条。
 * [d3.curveCardinalOpen](https://github.com/d3/d3-shape#curveCardinalOpen) - 开放三次C样条。
+* [*cardinal*.tension](https://github.com/d3/d3-shape#cardinal_tension) - 设置基数样条曲线的张力。
 * [d3.curveCatmullRom](https://github.com/d3/d3-shape#curveCatmullRom) - 立方Catmull-Rom样条。
 * [d3.curveCatmullRomClosed](https://github.com/d3/d3-shape#curveCatmullRomClosed) - 闭合立方Catmull-Rom样条。
 * [d3.curveCatmullRomOpen](https://github.com/d3/d3-shape#curveCatmullRomOpen) - 开放立方Catmull-Rom样条。
+* [*catmullRom*.alpha](https://github.com/d3/d3-shape#catmullRom_alpha) - 设置Catmull–Rom的*alpha*参数。
 * [d3.curveLinear](https://github.com/d3/d3-shape#curveLinear) - 折线。
 * [d3.curveLinearClosed](https://github.com/d3/d3-shape#curveLinearClosed) - 闭合折线。
 * [d3.curveMonotoneX](https://github.com/d3/d3-shape#curveMonotoneX) - 立方样条。鉴于y单调性，保持x。
