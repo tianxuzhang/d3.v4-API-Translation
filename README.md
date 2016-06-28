@@ -1,13 +1,55 @@
 # d3.v4-API-Translation
 D3.js 4.0 API中文手册
 
-# 好吧，说说我要做啥？
-今天打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
+# 说说4.0
+今天（2016-05-14）打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
 >Bring data to life with SVG, Canvas and HTML
 
 比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为帮助大家入门d3.v4的第一手资料。
 
-# 翻译有感
+# 4.0的新功能
+
+## 颜色，插值器，比例尺
+
++ 颜色有透明度（rgba，hsla等）。
++ 新增Cubehelix颜色空间。
++ 新增连续型颜色比例尺绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
++ 新增点比例尺和段比例尺替代以前的ordinal.rangeBands和ordinal.rangePoints。
++ 新增基本样条曲线插值器（例如连续的ColorBrewer）。
+
+## 形状和布局。
+
++ 形状和渲染成Canvas。
++ 修复了cardinal 和 monotone样条曲线。
++ 增加了参数化的 Catmull–Rom 和natural样条曲线。
++ 新的确定，可扩展的速度Verlet力布局。
++ 新的圆形填充布局。
++ 新的可扩展的矩形树布局；改良squarified treemaps；新增binary treemaps。
++ 新增d3.stratify用于表格层次性数据（以前只支持JSON）。
++ 更快，可变的，非递归的四叉树。
++ 泰森多边形暴露拓扑信息。
+
+## 选择器，过渡，缓动和定时器。
+
++ 选择器和过渡现在是不变的提供一个简洁的界面。
++ 新增selection.raise， selection.lower 和selection.dispatch 方法。
++ 时间在后台是冻结的，避免无意识的操作。
++ 定时器可以在外部停止。
++ 过渡现在支持 CSS 变换。
++ 可使用selection.interrupt取消过渡。
++ 更简单的过渡链（d3.active，transition.delay）。
++ 为同质转换提供更好的性能（例如元素间共享插值器）。
++ 更好的过渡状执行和持续。
++ 修复松紧带和弹性缓冲函数。
+
+## 其他
+
++ 默认的轴样式。
++ 更好的刷子交互。
++ 内置的用于并行加载数据的异步队列。
++ d3.ticks API。
+
+# 我的感受
 
 * 2016-5-20日下午五点左右，D3的star数超过50000次，位列所有前端库第二（仅次于boostrap）。自从2013年关注D3以来，几乎都超过每个月1000的增幅上涨着。虽然距离排名第一的前端库boostrap有些差距，但D3的这种发展速度和受欢迎程度相信会继续给我带来更多的惊喜。
 
