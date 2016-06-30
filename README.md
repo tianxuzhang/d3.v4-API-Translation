@@ -13,25 +13,25 @@ D3.js 4.0 API中文手册
 
 + 颜色有透明度（rgba，hsla等）。
 + 新增Cubehelix颜色空间。
-+ 新增连续型颜色比例尺绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
++ 新增连续型颜色比例尺：绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
 + 新增点比例尺和段比例尺替代以前的ordinal.rangeBands和ordinal.rangePoints。
 + 新增基本样条曲线插值器（例如连续的ColorBrewer）。
 
 ## 形状和布局。
 
-+ 形状和渲染成Canvas。
++ 形状支持渲染成Canvas。
 + 修复了cardinal 和 monotone样条曲线。
 + 增加了参数化的 Catmull–Rom 和natural样条曲线。
-+ 新的确定，可扩展的速度Verlet力布局。
++ 新的确定，可扩展的*速度Verlet*力布局。
 + 新的圆形填充布局。
 + 新的可扩展的矩形树布局；改良squarified treemaps；新增binary treemaps。
-+ 新增d3.stratify用于表格层次性数据（以前只支持JSON）。
++ 新增d3.stratify用于处理行列式层次型数据（以前只支持JSON）。
 + 更快，可变的，非递归的四叉树。
-+ 泰森多边形暴露拓扑信息。
++ 泰森多边形暴露有用的拓扑信息。
 
 ## 选择器，过渡，缓动和定时器。
 
-+ 选择器和过渡现在是不变的提供一个简洁的界面。
++ 选择器和过渡现在是不变的，提供一个简洁的界面。
 + 新增selection.raise， selection.lower 和selection.dispatch 方法。
 + 时间在后台是冻结的，避免无意识的操作。
 + 定时器可以在外部停止。
@@ -39,8 +39,8 @@ D3.js 4.0 API中文手册
 + 可使用selection.interrupt取消过渡。
 + 更简单的过渡链（d3.active，transition.delay）。
 + 为同质转换提供更好的性能（例如元素间共享插值器）。
-+ 更好的过渡状执行和持续。
-+ 修复松紧带和弹性缓冲函数。
++ 更好地执行和持续过渡状态。
++ 修复松紧带缓冲函数和弹性缓冲函数。
 
 ## 其他
 
