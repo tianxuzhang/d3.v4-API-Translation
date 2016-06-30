@@ -72,11 +72,13 @@ D3.js 4.0 API中文手册
 **D3** (或**D3.js**) 是一个用来使用Web标准做数据可视化的JavaScript库。D3帮助我们使用SVG, Canvas 和 HTML技术让数据生动有趣。D3将强大的**可视化**，**动态交互**和**数据驱动的DOM操作方法**完美结合，让我们可以充分发挥现代浏览器的功能，自由的设计正确的可视化界面。
 
 
-更多参考? [见wiki。](https://github.com/d3/d3/wiki)
+## 资料
 
-
-案例[见gallery](https://github.com/d3/d3/wiki/Gallery) 和 [作者mbostock的博客bl.ocks](http://bl.ocks.org/mbostock).
-
+* [API参考](https://github.com/d3/d3/blob/master/API.md)
+* [发行版](https://github.com/d3/d3/releases)
+* [展廊](https://github.com/d3/d3/wiki/Gallery)
+* [案例](http://bl.ocks.org/mbostock)
+* [Wiki](https://github.com/d3/d3/wiki)
 
 ## 安装
 
