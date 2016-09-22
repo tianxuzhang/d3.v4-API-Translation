@@ -778,10 +778,10 @@ XMLHttpRequest的简便封装。
 * [*point*.bandwidth](https://github.com/d3/d3-scale#point_bandwidth) - 返回0。
 * [*point*.step](https://github.com/d3/d3-scale#point_step) - 开始相邻点之间的距离。
 * [*point*.copy](https://github.com/d3/d3-scale#point_copy) - 创建比例尺的副本。
-* [d3.scaleCategory10](https://github.com/d3/d3-scale#scaleCategory10) - 10种分类颜色。
-* [d3.scaleCategory20](https://github.com/d3/d3-scale#scaleCategory20) - 20种分类颜色。
-* [d3.scaleCategory20b](https://github.com/d3/d3-scale#scaleCategory20b) - 20种分类颜色。
-* [d3.scaleCategory20c](https://github.com/d3/d3-scale#scaleCategory20c) - 20种分类颜色。
+* [d3.schemeCategory10](https://github.com/d3/d3-scale#scaleCategory10) - 10种分类颜色。
+* [d3.schemeCategory20](https://github.com/d3/d3-scale#scaleCategory20) - 20种分类颜色。
+* [d3.schemeCategory20b](https://github.com/d3/d3-scale#scaleCategory20b) - 20种分类颜色。
+* [d3.schemeCategory20c](https://github.com/d3/d3-scale#scaleCategory20c) - 20种分类颜色。
 
 ## [选择器](https://github.com/d3/d3-selection)
 
