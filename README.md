@@ -715,21 +715,29 @@ XMLHttpRequest的简便封装。
 * [d3.scaleSequential](https://github.com/d3/d3-scale#scaleSequential) - 创建一个顺序比例尺。create a sequential scale.
 * [*sequential*.interpolator](https://github.com/d3/d3-scale#sequential_interpolator) - 设置比例尺的输出插值器。
 * [d3.interpolateViridis](https://github.com/d3/d3-scale#interpolateViridis) - 暗到明的颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/viridis.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/viridis.png" width="100%" height="40" alt="viridis">
+
 * [d3.interpolateInferno](https://github.com/d3/d3-scale#interpolateInferno) - 暗到明的颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/inferno.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/inferno.png" width="100%" height="40" alt="inferno">
+
 * [d3.interpolateMagma](https://github.com/d3/d3-scale#interpolateMagma) - 暗到明的颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/magma.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/magma.png" width="100%" height="40" alt="magma">
+
 * [d3.interpolatePlasma](https://github.com/d3/d3-scale#interpolatePlasma) - 暗到明的颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/plasma.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/plasma.png" width="100%" height="40" alt="plasma">
+
 * [d3.interpolateWarm](https://github.com/d3/d3-scale#interpolateWarm) - 色相环颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/warm.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/warm.png" width="100%" height="40" alt="warm">
+
 * [d3.interpolateCool](https://github.com/d3/d3-scale#interpolateCool) - 色相环颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/cool.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/cool.png" width="100%" height="40" alt="cool">
+
 * [d3.interpolateRainbow](https://github.com/d3/d3-scale#interpolateRainbow) - 循环的色相环颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/rainbow.png)
+
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/rainbow.png" width="100%" height="40" alt="rainbow">
+
 * [d3.interpolateCubehelixDefault](https://github.com/d3/d3-scale#interpolateCubehelixDefault) - 暗到明的色相环颜色组合。
-![](https://raw.githubusercontent.com/d3/d3-scale/master/img/cubehelix.png)
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/cubehelix.png" width="100%" height="40" alt="cubehelix">
 
 ### [量化比例尺](https://github.com/d3/d3-scale#quantize-scales)
 
@@ -794,9 +802,16 @@ XMLHttpRequest的简便封装。
 * [*point*.step](https://github.com/d3/d3-scale#point_step) - 开始相邻点之间的距离。
 * [*point*.copy](https://github.com/d3/d3-scale#point_copy) - 创建比例尺的副本。
 * [d3.schemeCategory10](https://github.com/d3/d3-scale#scaleCategory10) - 10种分类颜色。
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/category10.png" width="100%" height="40" alt="category10">
+
 * [d3.schemeCategory20](https://github.com/d3/d3-scale#scaleCategory20) - 20种分类颜色。
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/category20.png" width="100%" height="40" alt="category20">
+
 * [d3.schemeCategory20b](https://github.com/d3/d3-scale#scaleCategory20b) - 20种分类颜色。
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/category20b.png" width="100%" height="40" alt="category20b">
+
 * [d3.schemeCategory20c](https://github.com/d3/d3-scale#scaleCategory20c) - 20种分类颜色。
+<img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/category20c.png" width="100%" height="40" alt="category20c">
 
 ## [选择器](https://github.com/d3/d3-selection)
 
