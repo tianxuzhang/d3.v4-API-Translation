@@ -708,22 +708,28 @@ XMLHttpRequest的简便封装。
 * [*time*.copy](https://github.com/d3/d3-scale#time_copy) - 创建比例尺的副本。
 * [d3.scaleUtc](https://github.com/d3/d3-scale#scaleUtc) - 创建UTC时间的线性比例尺。
 
-### [连续颜色比例尺](https://github.com/d3/d3-scale#sequential-color-scales)
+### [连续颜色比例尺](https://github.com/d3/d3-scale#scaleSequential)
 
-将连续的，数量的定义域映射为连续的，固定的颜色渐变。
+将连续的，数量的定义域映射为连续的，固定的颜色插值器。
 
-* [d3.scaleViridis](https://github.com/d3/d3-scale#scaleViridis) - 暗到明的颜色组合。
-* [d3.scaleInferno](https://github.com/d3/d3-scale#scaleInferno) - 暗到明的颜色组合。
-* [d3.scaleMagma](https://github.com/d3/d3-scale#scaleMagma) - 暗到明的颜色组合。
-* [d3.scalePlasma](https://github.com/d3/d3-scale#scalePlasma) - 暗到明的颜色组合。
-* [d3.scaleWarm](https://github.com/d3/d3-scale#scaleWarm) - 色相环颜色组合。
-* [d3.scaleCool](https://github.com/d3/d3-scale#scaleCool) - 色相环颜色组合。
-* [d3.scaleRainbow](https://github.com/d3/d3-scale#scaleRainbow) - 循环的色相环颜色组合。
-* [d3.scaleCubehelix](https://github.com/d3/d3-scale#scaleCubehelix) - 暗到明的色相环颜色组合。
-
------------
-上面这段翻译了但是比较模糊，以后提供点小例子解释下~
------------
+* [d3.scaleSequential](https://github.com/d3/d3-scale#scaleSequential) - 创建一个顺序比例尺。create a sequential scale.
+* [*sequential*.interpolator](https://github.com/d3/d3-scale#sequential_interpolator) - 设置比例尺的输出插值器。
+* [d3.interpolateViridis](https://github.com/d3/d3-scale#interpolateViridis) - 暗到明的颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/viridis.png)
+* [d3.interpolateInferno](https://github.com/d3/d3-scale#interpolateInferno) - 暗到明的颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/inferno.png)
+* [d3.interpolateMagma](https://github.com/d3/d3-scale#interpolateMagma) - 暗到明的颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/magma.png)
+* [d3.interpolatePlasma](https://github.com/d3/d3-scale#interpolatePlasma) - 暗到明的颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/plasma.png)
+* [d3.interpolateWarm](https://github.com/d3/d3-scale#interpolateWarm) - 色相环颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/warm.png)
+* [d3.interpolateCool](https://github.com/d3/d3-scale#interpolateCool) - 色相环颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/cool.png)
+* [d3.interpolateRainbow](https://github.com/d3/d3-scale#interpolateRainbow) - 循环的色相环颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/rainbow.png)
+* [d3.interpolateCubehelixDefault](https://github.com/d3/d3-scale#interpolateCubehelixDefault) - 暗到明的色相环颜色组合。
+![](https://raw.githubusercontent.com/d3/d3-scale/master/img/cubehelix.png)
 
 ### [量化比例尺](https://github.com/d3/d3-scale#quantize-scales)
 
