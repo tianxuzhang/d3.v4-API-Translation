@@ -733,7 +733,6 @@ XMLHttpRequest的简便封装。
 <img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/cool.png" width="100%" height="40" alt="cool">
 
 * [d3.interpolateRainbow](https://github.com/d3/d3-scale#interpolateRainbow) - 循环的色相环颜色组合。
-
 <img src="https://raw.githubusercontent.com/d3/d3-scale/master/img/rainbow.png" width="100%" height="40" alt="rainbow">
 
 * [d3.interpolateCubehelixDefault](https://github.com/d3/d3-scale#interpolateCubehelixDefault) - 暗到明的色相环颜色组合。
@@ -970,25 +969,61 @@ XMLHttpRequest的简便封装。
 通过在点间插值生成一条曲线。
 
 * [d3.curveBasis](https://github.com/d3/d3-shape#curveBasis) - 立方基本样条，终点循环。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/basis.png" width="888" height="240" alt="basis" style="max-width:100%;" class="">
+
 * [d3.curveBasisClosed](https://github.com/d3/d3-shape#curveBasisClosed) - 闭合立方基本样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/basisClosed.png" width="888" height="240" alt="basisClosed" style="max-width:100%;">
+
 * [d3.curveBasisOpen](https://github.com/d3/d3-shape#curveBasisOpen) - 开放立方基本样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/basisOpen.png" width="888" height="240" alt="basisOpen" style="max-width:100%;">
+
 * [d3.curveBundle](https://github.com/d3/d3-shape#curveBundle) - 直立方基本样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/bundle.png" width="888" height="240" alt="bundle" style="max-width:100%;">
+
 * [d3.curveCardinal](https://github.com/d3/d3-shape#curveCardinal) - 三次C样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/cardinal.png" width="888" height="240" alt="cardinal" style="max-width:100%;">
+
 * [d3.curveCardinalClosed](https://github.com/d3/d3-shape#curveCardinalClosed) - 闭合三次C样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/cardinalClosed.png" width="888" height="240" alt="cardinalClosed" style="max-width:100%;">
+
 * [d3.curveCardinalOpen](https://github.com/d3/d3-shape#curveCardinalOpen) - 开放三次C样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/cardinalOpen.png" width="888" height="240" alt="cardinalOpen" style="max-width:100%;">
+
 * [*cardinal*.tension](https://github.com/d3/d3-shape#cardinal_tension) - 设置基数样条曲线的张力。
 * [d3.curveCatmullRom](https://github.com/d3/d3-shape#curveCatmullRom) - 立方Catmull-Rom样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/catmullRom.png" width="888" height="240" alt="catmullRom" style="max-width:100%;">
+
 * [d3.curveCatmullRomClosed](https://github.com/d3/d3-shape#curveCatmullRomClosed) - 闭合立方Catmull-Rom样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/catmullRomClosed.png" width="888" height="330" alt="catmullRomClosed" style="max-width:100%;">
+
 * [d3.curveCatmullRomOpen](https://github.com/d3/d3-shape#curveCatmullRomOpen) - 开放立方Catmull-Rom样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/catmullRomOpen.png" width="888" height="240" alt="catmullRomOpen" style="max-width:100%;">
+
 * [*catmullRom*.alpha](https://github.com/d3/d3-shape#catmullRom_alpha) - 设置Catmull–Rom的*alpha*参数。
 * [d3.curveLinear](https://github.com/d3/d3-shape#curveLinear) - 折线。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/linear.png" width="888" height="240" alt="linear" style="max-width:100%;">
+
 * [d3.curveLinearClosed](https://github.com/d3/d3-shape#curveLinearClosed) - 闭合折线。
-* [d3.curveMonotoneX](https://github.com/d3/d3-shape#curveMonotoneX) - 立方样条。鉴于y单调性，保持x。
-* [d3.curveMonotoneY](https://github.com/d3/d3-shape#curveMonotoneY) - 立方样条。鉴于y单调性，保持x。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/linearClosed.png" width="888" height="240" alt="linearClosed" style="max-width:100%;">
+
+* [d3.curveMonotoneX](https://github.com/d3/d3-shape#curveMonotoneX) - 立方样条。假设y是单调的，保持x的单调性。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/monotoneX.png" width="888" height="240" alt="monotoneX" style="max-width:100%;">
+
+* [d3.curveMonotoneY](https://github.com/d3/d3-shape#curveMonotoneY) - 立方样条。假设x是单调的，保持y的单调性。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/monotoneY.png" width="888" height="240" alt="monotoneY" style="max-width:100%;">
+
 * [d3.curveNatural](https://github.com/d3/d3-shape#curveNatural) - 自然三次样条。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/natural.png" width="888" height="240" alt="natural" style="max-width:100%;">
+
 * [d3.curveStep](https://github.com/d3/d3-shape#curveStep) - 分段常值函数。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/step.png" width="888" height="240" alt="step" style="max-width:100%;">
+
 * [d3.curveStepAfter](https://github.com/d3/d3-shape#curveStepAfter) - 分段常值函数。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/stepAfter.png" width="888" height="240" alt="stepAfter" style="max-width:100%;">
+
 * [d3.curveStepBefore](https://github.com/d3/d3-shape#curveStepBefore) - 分段常值函数。
+<img src="https://raw.githubusercontent.com/d3/d3-shape/master/img/stepBefore.png" width="888" height="240" alt="stepBefore" style="max-width:100%;">
+
 * [*curve*.areaStart](https://github.com/d3/d3-shape#curve_areaStart) - 开始一个面积片段。
 * [*curve*.areaEnd](https://github.com/d3/d3-shape#curve_areaEnd) - 结束一个面积片段。
 * [*curve*.lineStart](https://github.com/d3/d3-shape#curve_lineStart) - 开始一条新的线段。
