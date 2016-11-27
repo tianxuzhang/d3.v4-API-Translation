@@ -1,14 +1,14 @@
-# D3.js 4.0 API中文手册
+# D3.js 4.x API中文手册
 
 本文档会随官方文档同步更新。
 
-# 说说4.0
+# 说说4.x
 今天（2016-05-14）打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
 >Bring data to life with SVG, Canvas and HTML
 
 比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为帮助大家入门d3.v4的第一手资料。
 
-# 4.0的新功能
+# 4.x的新功能
 
 ## 颜色，插值器，比例尺
 
@@ -97,10 +97,10 @@ D3将强大的**可视化**，**动态交互**和**数据驱动的DOM操作方�
 
 ## 安装
 
-最近的稳定版是 (4.0.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
+最近的稳定版是 (4.4.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
 
 ```html
-<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 ```
 
 非压缩版移除上面的`.min`即可。
@@ -351,45 +351,78 @@ RGB值字符串。
 
 * [*ease*](https://github.com/d3/d3-ease#_ease) - 缓动给定的标准化时间。
 * [d3.easeLinear](https://github.com/d3/d3-ease#easeLinear) - 线性缓动，就是个恒等函数。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/linear.png" alt="linear" width="100%" height="240" style="max-width:100%;">
 * [d3.easePolyIn](https://github.com/d3/d3-ease#easePolyIn) - 多项式缓动，加速到指定的速率。
-* [d3.easePolyOut](https://github.com/d3/d3-ease#easePolyOut) - 逆多项式缓动。
-* [d3.easePolyInOut](https://github.com/d3/d3-ease#easePolyInOut) - 均匀多项式缓动。
-* [*poly*.exponent](https://github.com/d3/d3-ease#poly_exponent) - 指定多项式的指数。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/polyIn.png" alt="polyIn" width="100%" height="240" style="max-width:100%;">
+* [d3.easePolyOut](https://github.com/d3/d3-ease#easePolyOut) - 逆多项式缓动，等价于1 - polyIn(1 - t)。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/polyOut.png" alt="polyOut" width="100%" height="240" style="max-width:100%;">
+* [d3.easePolyInOut](https://github.com/d3/d3-ease#easePolyInOut) - 对称多项式缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/polyInOut.png" alt="polyInOut" width="100%" height="240" style="max-width:100%;">
+* [*poly*.exponent](https://github.com/d3/d3-ease#poly_exponent) - 指定缓动多项式的指数。
+```js
+var linear = d3.easePoly.exponent(1),
+    quad = d3.easePoly.exponent(2),
+    cubic = d3.easePoly.exponent(3);
+```
 * [d3.easeQuad](https://github.com/d3/d3-ease#easeQuad) - easeQuadInOut的别名。
+* [d3.easeQuadInOut](https://github.com/d3/d3-ease#easeQuadInOut) - 对称平方缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/quadInOut.png" alt="quadInOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeQuadIn](https://github.com/d3/d3-ease#easeQuadIn) - 平方缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/quadIn.png" alt="quadIn" width="100%" height="240" style="max-width:100%;">
 * [d3.easeQuadOut](https://github.com/d3/d3-ease#easeQuadOut) - 逆平方缓动。
-* [d3.easeQuadInOut](https://github.com/d3/d3-ease#easeQuadInOut) - 均匀平方缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/quadOut.png" alt="quadOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeCubic](https://github.com/d3/d3-ease#easeCubic) - easeCubicInOut的别名。
+* [d3.easeCubicInOut](https://github.com/d3/d3-ease#easeCubicInOut) - 对称立方缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/cubicInOut.png" alt="cubicInOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeCubicIn](https://github.com/d3/d3-ease#easeCubicIn) - 立方缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/cubicIn.png" alt="cubicIn" width="100%" height="240" style="max-width:100%;">
 * [d3.easeCubicOut](https://github.com/d3/d3-ease#easeCubicOut) - 逆立方缓动。
-* [d3.easeCubicInOut](https://github.com/d3/d3-ease#easeCubicInOut) - 均匀立方缓动。
-* [d3.easeSin](https://github.com/d3/d3-ease#easeSin) - easeSinInOut的别名。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/cubicOut.png" alt="cubicOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeSinIn](https://github.com/d3/d3-ease#easeSinIn) - 正弦缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/sinIn.png" alt="sinIn" width="100%" height="240" style="max-width:100%;">
 * [d3.easeSinOut](https://github.com/d3/d3-ease#easeSinOut) - 逆正弦缓动。
-* [d3.easeSinInOut](https://github.com/d3/d3-ease#easeSinInOut) - 均匀正弦缓动。
-* [d3.easeExp](https://github.com/d3/d3-ease#easeExp) - easeExpInOut的别名。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/sinOut.png" alt="sinOut" width="100%" height="240" style="max-width:100%;">
+* [d3.easeSin](https://github.com/d3/d3-ease#easeSin) - easeSinInOut的别名。
+* [d3.easeSinInOut](https://github.com/d3/d3-ease#easeSinInOut) - 对称正弦缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/sinInOut.png" alt="sinInOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeExpIn](https://github.com/d3/d3-ease#easeExpIn) - 指数缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/expIn.png" alt="expIn" width="100%" height="240" style="max-width:100%;">
 * [d3.easeExpOut](https://github.com/d3/d3-ease#easeExpOut) - 逆指数缓动。
-* [d3.easeExpInOut](https://github.com/d3/d3-ease#easeExpInOut) - 均匀指数缓动。
-* [d3.easeCircle](https://github.com/d3/d3-ease#easeCircle) - easeCircleInOut的别名。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/expOut.png" alt="expOut" width="100%" height="240" style="max-width:100%;">
+* [d3.easeExp](https://github.com/d3/d3-ease#easeExp) - easeExpInOut的别名。
+* [d3.easeExpInOut](https://github.com/d3/d3-ease#easeExpInOut) - 对称指数缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/expInOut.png" alt="expInOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeCircleIn](https://github.com/d3/d3-ease#easeCircleIn) - 圆形缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/circleIn.png" alt="circleIn" width="100%" height="240" style="max-width:100%;">
 * [d3.easeCircleOut](https://github.com/d3/d3-ease#easeCircleOut) - 逆圆形缓动。
-* [d3.easeCircleInOut](https://github.com/d3/d3-ease#easeCircleInOut) - 均匀圆形缓动。
-* [d3.easeElastic](https://github.com/d3/d3-ease#easeElastic) - easeElasticOut的别名。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/circleOut.png" alt="circleOut" width="100%" height="240" style="max-width:100%;">
+* [d3.easeCircle](https://github.com/d3/d3-ease#easeCircle) - easeCircleInOut的别名。
+* [d3.easeCircleInOut](https://github.com/d3/d3-ease#easeCircleInOut) - 对称圆形缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/circleInOut.png" alt="circleInOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeElasticIn](https://github.com/d3/d3-ease#easeElasticIn) - 弹性缓动，类似松紧带。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/elasticIn.png" alt="elasticIn" width="100%" height="360" style="max-width:100%;">
+* [d3.easeElastic](https://github.com/d3/d3-ease#easeElastic) - easeElasticOut的别名。
 * [d3.easeElasticOut](https://github.com/d3/d3-ease#easeElasticOut) - 逆弹性缓动。
-* [d3.easeElasticInOut](https://github.com/d3/d3-ease#easeElasticInOut) - 均匀弹性缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/elasticOut.png" alt="elasticOut" width="100%" height="360" style="max-width:100%;">
+* [d3.easeElasticInOut](https://github.com/d3/d3-ease#easeElasticInOut) - 对称弹性缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/elasticInOut.png" alt="elasticInOut" width="100%" height="360" style="max-width:100%;">
 * [*elastic*.amplitude](https://github.com/d3/d3-ease#elastic_amplitude) - 指定弹性振幅。
 * [*elastic*.period](https://github.com/d3/d3-ease#elastic_period) - 指定弹性周期。
+* [d3.easeBackIn](https://github.com/d3/d3-ease#easeBackIn) - [预期缓动](https://en.wikipedia.org/wiki/12_basic_principles_of_animation#Anticipation)。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/backIn.png" alt="backIn" width="100%" height="300" style="max-width:100%;">
+* [d3.easeBackOut](https://github.com/d3/d3-ease#easeBackOut) - 逆预期缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/backOut.png" alt="backOut" width="100%" height="300" style="max-width:100%;">
 * [d3.easeBack](https://github.com/d3/d3-ease#easeBack) - easeBackInOut的别名。
-* [d3.easeBackIn](https://github.com/d3/d3-ease#easeBackIn) - 提早缓动。
-* [d3.easeBackOut](https://github.com/d3/d3-ease#easeBackOut) - 逆提早缓动。
-* [d3.easeBackInOut](https://github.com/d3/d3-ease#easeBackInOut) - 均匀提早缓动。
+* [d3.easeBackInOut](https://github.com/d3/d3-ease#easeBackInOut) - 对称预期缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/backInOut.png" alt="backInOut" width="100%" height="300" style="max-width:100%;">
 * [*back*.overshoot](https://github.com/d3/d3-ease#back_overshoot) - 指定超调量。
-* [d3.easeBounce](https://github.com/d3/d3-ease#easeBounce) - easeBounceOut的别名。
 * [d3.easeBounceIn](https://github.com/d3/d3-ease#easeBounceIn) - 弹跳缓动，类似弹跳的小球。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/bounceIn.png" alt="bounceIn" width="100%" height="240" style="max-width:100%;">
+* [d3.easeBounce](https://github.com/d3/d3-ease#easeBounce) - easeBounceOut的别名。
 * [d3.easeBounceOut](https://github.com/d3/d3-ease#easeBounceOut) - 逆弹跳缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/bounceOut.png" alt="bounceOut" width="100%" height="240" style="max-width:100%;">
 * [d3.easeBounceInOut](https://github.com/d3/d3-ease#easeBounceInOut) - 均匀弹跳缓动。
+<img src="https://raw.githubusercontent.com/d3/d3-ease/master/img/bounceInOut.png" alt="bounceInOut" width="100%" height="240" style="max-width:100%;">
 
 ## [力导向图](https://github.com/d3/d3-force)
 
