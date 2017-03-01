@@ -26,35 +26,117 @@
 
 ## 形状和布局。
 
+
+# 4.x的新功能
+
+## 颜色，插值器，比例尺
+
++ 颜色支持透明度（rgba，hsla等）。
++ 新增Cubehelix颜色空间。
++ 新增连续型颜色比例尺：绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
++ 新增点比例尺和段比例尺替代以前的ordinal.rangeBands和ordinal.rangePoints。
++ 新增基本样条曲线插值器（例如连续的ColorBrewer）。
++ 新增d3.interpolateDate
++ d3.interpolate支持特殊的日期
++ d3.interpolate支持类似数字的对象
+
+## 形状和布局。
+
 + 形状支持渲染成Canvas。
-+ 修复了cardinal 和 monotone样条曲线。
 + 增加了参数化的 Catmull–Rom 和natural样条曲线。
 + 新的确定，可扩展的*速度Verlet*力布局。
 + 新的圆形填充布局。
 + 新的可扩展的矩形树布局；改良squarified treemaps；新增binary treemaps。
 + 新增d3.stratify用于处理行列式层次型数据（以前只支持JSON）。
++ 新增diagram.find支持Voronoi快速检索
+* 添加node.count
+* 包含d3-chord 
++ 默认的轴样式。
+
 + 更快，可变的，非递归的四叉树。
 + 泰森多边形暴露有用的拓扑信息。
++ 使圆形弧线更健壮
+
++ 修复了cardinal 和 monotone样条曲线。
++ 修复d3.curveCatmullRom中的bug
++ 修复当范围的最小值是非0值时voronoi.size的异常。
++ 修复在voronoi diagram.find时发生崩溃
++ 修复在voronoi diagram.triangles时发生崩溃
+* 修复treemaps中有0值时挂起
+* 修复d3.pack和d3.packSiblings的重叠点bug
+* 修复force.initialize支持孤立点
 
 ## 选择器，过渡，缓动和定时器。
 
-+ 选择器和过渡现在是不变的，提供一个简洁的界面。
 + 新增selection.raise， selection.lower 和selection.dispatch 方法。
 + 时间在后台是冻结的，避免无意识的操作。
 + 定时器可以在外部停止。
 + 过渡现在支持 CSS 变换。
 + 可使用selection.interrupt取消过渡。
+
 + 更简单的过渡链（d3.active，transition.delay）。
 + 为同质转换提供更好的性能（例如元素间共享插值器）。
 + 更好地执行和持续过渡状态。
+
 + 修复松紧带缓冲函数和弹性缓冲函数。
++ 修复链式过渡不会打断它之前的过渡。
++ 修复最后一个节拍抛出错误时过渡不会卡住
++ 修复抛出错误时过渡不会内存泄漏
++ 修复当序数轴过渡被打断时的无效转换
 
-## 其他
+## 地理
 
-+ 默认的轴样式。
-+ 更好的刷子交互。
++ 添加projection.fitExtent和projection.fitSize
++ 添加d3.geoIdentity用于缩放，平移和剪切平面几何。
++ 添加d3.geoGraticule10用于生成默认为10°的经纬网
++ 添加d3.geoPath的优化参数用于支持投影和context。
++ 为d3.geoIdentity添加identity.reflectX和identity.reflectY函数
++ 添加path.measure
++ 添加d3.geoContains
++ d3.geoIdentity的clipExtent替代d3.geoClipExtent
++ 导出原始地理投影。
+
++ 优化地图投影的默认值
++ 优化d3.geoPath
++ 提高d3.path的性能
++ 优化d3.geoCentroid
+
++ 修复d3.geoBounds时发生崩溃
++ 修复d3.geoStereographic反转函数
++ 修复d3.geoAlbersUsa缓存失效
++ 修复调用collide.radius没有反应。
++ 修复d3.geoConicConformal反转函数
++ 修复d3.geoConicEqualArea
++ 修复d3.geoPath的默认投影和上下文为null而不是undefined
++ 修复d3.geoBounds计算线几何体的bug
++ 修复d3.geoCentroid计算细节地理特征的bug
+
+## 数据
+
++ 添加d3.ticks。
++ 添加d3.cross
++ d3.pairs添加一个reducer入参
++ 本地数字格式现在可以定义数字系统（如阿拉伯）
 + 内置的用于并行加载数据的异步队列。
-+ d3.ticks API。
+
++ 修复颜色规范中对不寻常的数字格式的解析
++ 修复interval.every(…).range入参是无效日期时挂起。
++ 修复负无穷的数字格式化
++ 修复d3.interpolateRgb.gamma的透明度插值
++ time.ticks的step参数改为interval.every。
++ 如果d3.request回调是无效的时候抛出一个异常。
++ 修复d3.queue的await回调函数中吃掉异常
+
+## 交互
+
++ 更好的刷子交互。
++ 添加zoom.interpolate来控制聚焦过渡行为
++ 可禁用双击聚焦过渡
+
++ 修复变焦同时应用到一个元素和其祖先时发生崩溃。
++ 修复在brush.move中清除brush时发生崩溃
++ 修复zoom.translateExtent小于zoom.extent时挂起
++ 修复多点触摸触发的聚焦行为挂起
 
 # 我的感受
 
@@ -103,7 +185,7 @@ D3将强大的**可视化**，**动态交互**和**数据驱动的DOM操作方�
 
 ## 安装
 
-最近的稳定版是 (4.4.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
+最近的稳定版是 (4.7.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
 
 ```html
 <script src="https://d3js.org/d3.v4.min.js"></script>
