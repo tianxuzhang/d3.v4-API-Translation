@@ -18,19 +18,6 @@
 
 ## 颜色，插值器，比例尺
 
-+ 颜色有透明度（rgba，hsla等）。
-+ 新增Cubehelix颜色空间。
-+ 新增连续型颜色比例尺：绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
-+ 新增点比例尺和段比例尺替代以前的ordinal.rangeBands和ordinal.rangePoints。
-+ 新增基本样条曲线插值器（例如连续的ColorBrewer）。
-
-## 形状和布局。
-
-
-# 4.x的新功能
-
-## 颜色，插值器，比例尺
-
 + 颜色支持透明度（rgba，hsla等）。
 + 新增Cubehelix颜色空间。
 + 新增连续型颜色比例尺：绿松石（Viridis）和周期性的彩虹（cyclical Rainbow）。
@@ -49,14 +36,16 @@
 + 新的可扩展的矩形树布局；改良squarified treemaps；新增binary treemaps。
 + 新增d3.stratify用于处理行列式层次型数据（以前只支持JSON）。
 + 新增diagram.find支持Voronoi快速检索
-* 添加node.count
-* 包含d3-chord 
++ 添加node.count
++ 包含d3-chord 
 + 默认的轴样式。
 
+----------------
 + 更快，可变的，非递归的四叉树。
 + 泰森多边形暴露有用的拓扑信息。
 + 使圆形弧线更健壮
 
+----------------
 + 修复了cardinal 和 monotone样条曲线。
 + 修复d3.curveCatmullRom中的bug
 + 修复当范围的最小值是非0值时voronoi.size的异常。
@@ -74,10 +63,12 @@
 + 过渡现在支持 CSS 变换。
 + 可使用selection.interrupt取消过渡。
 
+----------------
 + 更简单的过渡链（d3.active，transition.delay）。
 + 为同质转换提供更好的性能（例如元素间共享插值器）。
 + 更好地执行和持续过渡状态。
 
+----------------
 + 修复松紧带缓冲函数和弹性缓冲函数。
 + 修复链式过渡不会打断它之前的过渡。
 + 修复最后一个节拍抛出错误时过渡不会卡住
@@ -96,11 +87,13 @@
 + d3.geoIdentity的clipExtent替代d3.geoClipExtent
 + 导出原始地理投影。
 
+----------------
 + 优化地图投影的默认值
 + 优化d3.geoPath
 + 提高d3.path的性能
 + 优化d3.geoCentroid
 
+----------------
 + 修复d3.geoBounds时发生崩溃
 + 修复d3.geoStereographic反转函数
 + 修复d3.geoAlbersUsa缓存失效
@@ -119,6 +112,7 @@
 + 本地数字格式现在可以定义数字系统（如阿拉伯）
 + 内置的用于并行加载数据的异步队列。
 
+----------------
 + 修复颜色规范中对不寻常的数字格式的解析
 + 修复interval.every(…).range入参是无效日期时挂起。
 + 修复负无穷的数字格式化
@@ -133,6 +127,7 @@
 + 添加zoom.interpolate来控制聚焦过渡行为
 + 可禁用双击聚焦过渡
 
+----------------
 + 修复变焦同时应用到一个元素和其祖先时发生崩溃。
 + 修复在brush.move中清除brush时发生崩溃
 + 修复zoom.translateExtent小于zoom.extent时挂起
