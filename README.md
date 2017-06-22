@@ -245,7 +245,7 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 * [d3.sum](https://github.com/d3/d3-array#sum) - 数组中所有元素求和。
 * [d3.mean](https://github.com/d3/d3-array#mean) - 计算数组的算术平均值。
 * [d3.median](https://github.com/d3/d3-array#median) - 计算数组的中位数。
-* [d3.quantile](https://github.com/d3/d3-array#quantile) - 计算一个数字数组排序后的分位数。
+* [d3.quantile](https://github.com/d3/d3-array#quantile) - 计算一个数字数组排序后的分位数。[R和Excel使用的R-7分位数计算法](https://en.wikipedia.org/wiki/Quantile#Quantiles_of_a_population)
 * [d3.variance](https://github.com/d3/d3-array#variance) - 数组中数字的方差。
 * [d3.deviation](https://github.com/d3/d3-array#deviation) - 数组中数字的标准差。
 
@@ -281,14 +281,16 @@ D3 使用 [语义命名](http://semver.org/)。可使用d3.version获取当前�
 转换数组并返回一个新的数组。
 
 * [d3.merge](https://github.com/d3/d3-array#merge) - 将多个数组合并成一个。
-* [d3.pairs](https://github.com/d3/d3-array#pairs) - 创建一个相邻对数组。
+* [d3.pairs](https://github.com/d3/d3-array#pairs) - 数组邻接对。
 * [d3.permute](https://github.com/d3/d3-array#permute) - 安装指定的索引数组重排数组。
-* [d3.shuffle](https://github.com/d3/d3-array#shuffle) - 数组随机排序。
-* [d3.ticks](https://github.com/d3/d3-array#ticks) - 从一个数组间隔生成有代表的值。
-* [d3.tickStep](https://github.com/d3/d3-array#tickStep) - 从一个数组间隔生成有代表的值。
+* [d3.shuffle](https://github.com/d3/d3-array#shuffle) - 数组随机排序。[洗牌算法的讨论](https://bost.ocks.org/mike/shuffle/)
+* [d3.ticks](https://github.com/d3/d3-array#ticks) - 从一个数组间隔生成有代表的值，刻度值。
+* [d3.tickStep](https://github.com/d3/d3-array#tickStep) - 从一个数组间隔生成有代表的步长。
+* [d3.tickIncrement](https://github.com/d3/d3-array#tickIncrement) - 增量（ticks中用到）。
 * [d3.range](https://github.com/d3/d3-array#range) - 生成一组数值。
 * [d3.transpose](https://github.com/d3/d3-array#transpose) - 数组转置。
 * [d3.zip](https://github.com/d3/d3-array#zip) - 转置多个数组。
+* [d3.cross](https://github.com/d3/d3-array#cross) - 两个数组的笛卡尔积。
 
 ## [轴](https://github.com/d3/d3-axis)
 
