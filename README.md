@@ -139,6 +139,11 @@
 
 * 翻译D3 V4的API发现与D3 V3的差别很大。暴露了更丰富的功能细节，就力导向图就从原来的12个功能函数增加到现在的41个（包含二级函数）。V4的大量API由原来的二级函数升级为一级函数（实际上就是把两级的单词合并，使用驼峰命名法重命名了），这样给使用者带来了一些记忆负担，其实以前的API设计得更好用点~
 
+# 招聘广告
+
+![](https://img.alicdn.com/tfs/TB14ZtsLwDqK1RjSZSyXXaxEVXa-1520-360.jpg)
+![](https://cdn.nlark.com/lark/0/2019/png/72916/1554890373094-575c5869-9775-4f5a-9f5f-7d436b43abfa.png?OSSAccessKeyId=LTAI1M4etAl6H5AN&Expires=1554892181&Signature=WOccYI80elGUT8li9I7X7tkT9KM%3D)
+
 # 加群讨论
 
 ||新手群|专业群|研究群|
