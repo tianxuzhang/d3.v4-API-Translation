@@ -543,7 +543,7 @@ var linear = d3.easePoly.exponent(1),
 * [*link*.links](https://github.com/d3/d3-force#link_links) - 设置连接数组。
 * [*link*.id](https://github.com/d3/d3-force#link_id) - 连接数组。
 * [*link*.distance](https://github.com/d3/d3-force#link_distance) - 设置连接距离。
-* [*link*.strength](https://github.com/d3/d3-force#link_strength) - 设置连接强度。
+* [*link*.strength](https://github.com/d3/d3-force#link_strength) - 设置连接（牵引力）强度。
 * [*link*.iterations](https://github.com/d3/d3-force#link_iterations) - 设置迭代次数。
 * [d3.forceManyBody](https://github.com/d3/d3-force#forceManyBody) - 创建多体力。
 * [*manyBody*.strength](https://github.com/d3/d3-force#manyBody_strength) - 设置力强度。
